@@ -71,7 +71,7 @@
   transform: translate(calc(-50% - 50px), -50%)
 }
 
-.VoidPost-lin .th {
+.VoidPost-lin .th, .VoidPost-lin .sf {
   color: var(--VP-c1);
   background: var(--VP-bg);
   font-size: 12px;
