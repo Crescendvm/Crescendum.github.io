@@ -94,7 +94,7 @@
 .mooncres .th {
   color: #444444;
   position: absolute;
-  bottom: -10px;
+  bottom: -20px;
   left: 50%;
   transform: translate(-50%, 0px);
   font-size: 10px;
