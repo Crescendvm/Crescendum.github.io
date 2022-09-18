@@ -81,3 +81,12 @@
   transform: translate(-50%, 0px);
   padding: 0px 0px 10px;
 }
+
+.void::-webkit-scrollbar {
+  width: 1px;
+  border-radius: 2px;
+}
+
+.void::-webkit-scrollbar-thumb {
+  background: transparent!important;
+}
