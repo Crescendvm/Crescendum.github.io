@@ -1,0 +1,88 @@
+/* FLOWERS POST MODEL Copyright (C) 2022 Crescendum
+    ☾ Don't use my work as a base.
+    ☾ Don't delete the credits.  */
+
+@import url('https://purrviolence.github.io/PurrFonts.css');
+
+@import url('https://solrainha.github.io/saturnicons/saturnicons.css');
+
+@import url('https://solrainha.github.io/honeybee/honeybee.css');
+/**/
+
+.Flowrs-00 {
+  width: 400px;
+  min-height: 360px;
+  position: relative;
+  margin: 10px auto 40px;
+  background: var(--Flowrs-c0)
+}
+
+.Flowrs-01 {
+  width: calc(100% - 40px);
+  height: 100px;
+  background-size: cover!important;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.Flwrs-lin {
+  width: calc(100% - 40px);
+  height: 3px;
+  background: var(--Flowrs-c1);
+  position: absolute;
+  top: 140px;
+  left: 20px
+}
+
+.Flowrs-titu {
+  font: 30px Newsreader;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--Flowrs-cf);
+  background: var(--Flowrs-c0);
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translate(0px, -50%);
+  padding-left: 10px;
+}
+
+.Flowrs-text {
+  width: calc(100% - 40px);
+  height: 175px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  background: var(--Flowrs-c2);
+}
+
+.Flowrs-txt {
+  font: 12px Times New Roman;
+  text-align: justify;
+  color: var(--Flowrs-ct);
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  overflow: auto;
+}
+
+.Flowrs-txt::-webkit-scrollbar {display: none!important}
+
+.Flowrs-txt::-webkit-scrollbar-thumb {background: #!important;} 
+
+.Flowrs-titu::selection, .Flowrs-txt::selection {
+  background: var(--Flowrs-se1);
+  color: var(--Flowrs-se2)
+}
+
+.CrescendumC .th{
+  font: 12px;
+  color: #7b6492;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%, 0px);
+}
