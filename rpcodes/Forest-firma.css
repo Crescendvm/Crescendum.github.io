@@ -14,6 +14,7 @@
   overflow: hidden;
   border: 13px solid;
   background: #000;
+  margin-bottom: 30px;
 }
 
 #frt1 {
@@ -57,4 +58,13 @@
   font: 11px Calibri;
   text-transform: uppercase;
   text-align: justify;
+}
+
+.CrescendumC .th{
+  font: 12px;
+  color: #7b6492;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%, 0px);
 }
