@@ -64,3 +64,20 @@
   text-transform: uppercase;
   text-align: justify;
 }
+
+
+.CrescendumC {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.CrescendumC a {
+  text-decoration: none;
+}
+
+.CrescendumC .th{
+  font-size: 14px;
+  color: #7b6492;
+}
