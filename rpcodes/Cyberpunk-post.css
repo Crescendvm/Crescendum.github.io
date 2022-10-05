@@ -7,9 +7,13 @@
 */ 
 
 /* MAIN CSS */
+
+/*FONT*/
+@font-face {font-family: Valorant; src: url('https://dl.dropbox.com/s/x0zmtsu1f4jw4ck/Valorant%20Font.ttf'); format('truetype');font-display: swap;}
 @import url('https://purrviolence.github.io/PurrFonts.css');
 @import url('https://solrainha.github.io/saturnicons/saturnicons.css');
 @import url('https://solrainha.github.io/honeybee/honeybee.css');
+/**/
 
 #cyberpunk {
   width: 500px;
