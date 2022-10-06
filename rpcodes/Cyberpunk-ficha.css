@@ -1,0 +1,379 @@
+/* 
+                    — ☾ —
+    CYBERPUNK Copyright (C) 2022 Crescendum 
+       Visit for my codes:
+          - https://crescendumcodes.tumblr.com/
+          - https://codepen.io/crescendumcodes
+*/ 
+
+
+/*FONTS*/
+@font-face {font-family: Valorant; src: url('https://dl.dropbox.com/s/x0zmtsu1f4jw4ck/Valorant%20Font.ttf'); format('truetype');font-display: swap;}
+@import url('https://purrviolence.github.io/PurrFonts.css');
+
+/* MAIN CSS*/
+#cyberpunk {
+  width: 600px;
+  height: 250px;
+  position: relative;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+#cyber-base0{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index: 1;
+  background: #111;
+}
+
+.cyberpunk-img1 {
+  width: 450px;
+  height: 100%;
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-size: cover;
+  background-position: center;
+  filter: opacity(0.5) ;
+}
+
+.cyberpunk-img1::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: var(--c-filt);
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+  mix-blend-mode: multiply;
+}
+
+.cyberpunk-img0 {
+  width: 380px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: polygon(0 0, 100% 0, 39% 100%, 0 100%);
+  background-position: center;
+  background-size: cover;
+  filter: opacity(0.5) grayscale(1) contrast(120%);
+}
+
+#cyber-texb {
+  width: 450px;
+  height: 50px;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: var(--c-tituf);
+}
+
+.cyber-titu {
+  color: var(--c-titu);
+  font: 20px Valorant;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: italic;
+  letter-spacing: 1px;
+  font-weight: 900
+}
+
+.titu2 {
+  left: 100px;
+  width: 330px;
+  height: 1em;
+  overflow: hidden;
+  position: absolute;
+  top: 110px;
+  left: 90px;
+  transform: rotate(-48deg);
+  font-size: 28px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.titu2 p{
+  margin: 0!important;
+  padding: 0!important;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--c-titu1);
+  font-weight: 900
+}
+
+#cyber-base1 {
+  width: 0px;
+  height: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: -600px;
+  background: #111;
+  z-index: 2;
+  transition: .5s ease;
+  visibility: collapse;
+  opacity: 0;
+}
+
+#cyberpunk:hover #cyber-base1 {
+  left: 0;
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+}
+
+/*SEGUNDO BODY*/
+#cyber-bod1 {
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0
+}
+
+#cyber-bod1::after {
+  content: '';
+  width: 200px;
+  height: 100%;  
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-size: cover!important;
+  background-position: center!important;
+  filter: opacity(0.2) grayscale(1) contrast(120%)
+}
+
+#cyber-foti {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translatex(-50%);
+  filter: grayscale(0) opacity(1);
+  z-index: 1;
+}
+
+#cyber-pres {
+  visibility: visible!important;
+  opacity: 1!important;
+}
+
+#cyber-pti {
+  font: 60px Valorant;
+  font-weight: 900;
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: -3px;
+  line-height: 50px;
+  color: var(--c-ti-i)
+}
+
+/*BOTONES*/
+.cyber-bas2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+}
+
+.cyber-bas2 input { display: none; }                /* hide radio buttons */
+.cyber-bas2 input + label {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: var(--c-bg1);
+  color: var(--c-button);
+  cursor: pointer;
+  border: 1px solid var(--c-bor);
+  transition: .6s ease;
+} 
+
+.cyber-bas2 input:checked + label {
+  border-color: var(--c-bor-s);
+  color: var(--c-bor-s);
+  transition: .6s ease
+}
+.cyber-bas2 input + .cybb-1 {
+  top: 140px;
+  left: 465px;
+}
+.cyber-bas2 input + .cybb-2 {
+  top: 140px;
+  left: calc(465px + 30px + 10px)
+}
+.cyber-bas2 input + .cybb-3 {
+  top: calc(140px + 30px + 10px);
+  left: 465px
+}
+.cyber-bas2 input + .cybb-4 {
+  top: calc(140px + 30px + 10px);
+  left: calc(465px + 30px + 10px)
+}
+.cyber-bas2 #cyb-cer + label {
+  top: 3px;
+  left: 368px;
+  border: none!important;
+  background: transparent!important;
+  color: var(--c-bor-s);
+  position: absolute;
+  transition: all .4s ease-in-out;
+  visibility: collapse;
+  opacity: 0;
+}
+
+.cyber-bas2 i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 14px
+}
+
+/* show contents only for selected tab */
+#cyb-1:checked ~ .conte-1,
+#cyb-2:checked ~ .conte-2,
+#cyb-3:checked ~ .conte-3,
+#cyb-4:checked ~ .conte-4 {
+  visibility: visible;
+  opacity: 1;
+}
+
+#cyb-1:checked ~ #cyb-cer + label, #cyb-2:checked ~ #cyb-cer + label, #cyb-3:checked ~ #cyb-cer + label, #cyb-4:checked ~ #cyb-cer + label {
+  visibility: visible;
+  opacity: 1;
+}
+
+#cyb-cer:checked ~ .conte-1, #cyb-cer:checked ~ .conte-2, #cyb-cer:checked ~ .conte-3, #cyb-cer:checked ~ .conte-4 {
+  opacity: 0
+}
+
+/*CONTENIDO*/
+.cyb-conte, #cyber-pres {
+  width: calc(600px - 200px - 30px * 2);
+  height: calc(250px - 30px * 2);
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  visibility: collapse;
+  opacity: 0;
+  background: var(--c-bg1);
+  transition: 0.6s ease
+}
+
+#cyb-titu-i {
+  color: var(--c-ti-i);
+  font: 40px Valorant;
+  width: calc(250px - 30px * 2);
+  transform: rotate(-90deg);
+  top: 73px;
+  left: -73px;
+  position: absolute;
+  text-align: center;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -2px;
+  cursor: default;
+}
+
+#cyb-tex-i {
+  font: 12px Calibri;
+  width: calc(100% - 45px);
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: justify;
+  height: 100%;
+  overflow: auto;
+  color: var(--c-te1)
+}
+
+#cyb-tex-i::-webkit-scrollbar {display: none}
+#cyb-tex-i::-webkit-scrollbar-thumb {background: transparent;}
+
+#cyber-img-i {
+  width: 100%;
+  height: 100px;
+  background-size: cover!important;
+  background-position: center!important;
+  filter: opacity(0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#cyber-img-i::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: var(--c-filt);
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+}
+
+#cyb-da {
+  width: 100%;
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+
+#cyb-da .cyb-dat {
+  display: inline-block;
+  margin: 0px 5px 10px 0;
+  text-align: center;
+  font: 10px calibri;
+  text-transform: uppercase;
+  border: 1px solid;
+  color: var(--c-bor);
+  padding: 3px 20px;
+  border-radius: 10px;
+  float: left;
+  font-weight: 900;
+  letter-spacing: 1px;
+  cursor: help;
+  transition: all .4s ease-in-out;
+  background: transparent;
+}
+
+#cyb-da .cyb-dat:hover {
+  color: var(--c-bor-s);
+}
+
+.CrescendumC {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.CrescendumC a {
+  text-decoration: none;
+}
+
+.CrescendumC .th{
+  font-size: 14px;
+  color: #7b6492;
+}
