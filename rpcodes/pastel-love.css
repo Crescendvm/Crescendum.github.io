@@ -113,7 +113,7 @@
   width: calc(100% - 10px);
   height: 300px;
   position: absolute;
-  bottom: 5px;
+  bottom: 10px;
   left: 50%;
   transform: translatex(-50%);
   border-top: 1px solid var(--c-pl02);
