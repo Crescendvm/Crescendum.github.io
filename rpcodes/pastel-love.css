@@ -9,6 +9,9 @@
 /* MAIN CSS */
 .pastelLoveTotal {
   position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 30px auto;
 }
 
 .pastelLov {
@@ -135,7 +138,7 @@
 
 .CrescendumC {
   position: absolute;
-  bottom: -30px;
+  bottom: -20px;
   left: 50%;
   transform: translatex(-50%)
 }
