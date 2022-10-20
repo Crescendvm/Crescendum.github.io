@@ -2398,3 +2398,9 @@
 @font-face {font-family: Galaxy; src: url('https://dl.dropbox.com/s/9qmnwe8f2ibabi2/Galaxyfacereg-0lB4.ttf'); format('truetype');font-display: swap;font-weight: bold;}
 
 @font-face {font-family: Galaxy; src: url('https://dl.dropbox.com/s/p8h1l2b0gaz8yeg/Galaxyfaceano-4yM9.ttf'); format('truetype');font-display: swap;}
+
+@font-face {font-family: Elune; src: url('https://dl.dropbox.com/s/ckzj9ekekqrwy0t/diana%20emblem.ttf'); format('truetype');font-display: swap;font-weight:400;font-style:normal}
+
+.lun:before,[data-icon]:before{font-family:"Elune"!important;content:attr(data-icon);font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}[class^="lun-"]:before,[class*=" lun-"]:before{font-family:"Elune"!important;font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+.lun-elune:before{content:"\e900"}
