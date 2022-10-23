@@ -1,0 +1,260 @@
+/* 
+                    — ☾ —
+    CALM Copyright (C) 2022 Crescendum 
+       Visit for my codes:
+          - https://crescendumcodes.tumblr.com/
+          - https://codepen.io/crescendumcodes
+
+       Don't take my codes without permission!
+*/
+
+
+/* MAIN CSS */
+#calm {
+  width: 400px;
+  height: 400px;
+  background: var(--calm-background);
+  display: flex;
+  position: relative;
+  margin: 100px auto;
+  transform: rotate(45deg);
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+}
+
+.calm__base {
+  width: 270px;
+  height: 270px;
+  position: relative;
+  overflow: hidden;
+}
+
+.calm-base__img {
+  width: 146%;
+  height: 146%;
+  background-size: cover !important;
+  background-position: center !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg)
+}
+
+.calm__title {
+  font: 40px Montserrat;
+  position: absolute;
+  top: 0;
+  color: #b7b7b7;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -4px;
+  cursor: default;
+  width: 400px;
+}
+
+.calm__title:nth-child(1) {
+  right: 20px;
+  top: 9px;
+  text-align: right;
+  opacity: 1;
+  visibility: visible;
+  transition: all 1s ease-out;
+  transition-delay: .6s;
+}
+
+.calm__title:nth-child(2) {
+  top: 455px;
+  left: 344px;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  text-align: right;
+  opacity: 1;
+  visibility: visible;
+  transition: all 1s ease-out;
+  transition-delay: .8s;
+
+}
+
+.calm__ico {
+  color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* EFECTOS */
+#calm:hover > .calm__title:nth-child(1) {
+  right: 110%;
+  opacity: 0;
+  visibility: collapse;
+}
+
+#calm:hover > .calm__title:nth-child(2) {
+  top: 210%;
+  opacity: 0;
+  visibility: collapse;
+}
+
+/**/
+
+#calm:hover {
+  transform: rotate(0deg)
+}
+
+.calm__2body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--calm-background);
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: 100px 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  transform: scale(0);
+  transition: transform 1s ease-in-out;
+  transition-delay: .4s;
+}
+
+#calm:hover > .calm__2body {
+  transform: scale(1);
+}
+
+.calm__2body img:nth-child(1) {
+  width: 100px;
+  height: 100px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.calm__2body img:nth-child(4) {
+  width: 100px;
+  height: 100px;
+  grid-column: 3 / 4 !important;
+  grid-row: 3 / 4 !important;
+}
+
+.calm__2body ali:nth-child(2), .calm__2body ali:nth-child(5) {
+  height: 100px;
+  width: 100%;
+  grid-column: 2 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--calm-background2)
+}
+
+.calm__2body ali:nth-child(5) {
+  grid-column: 1 / 3;
+}
+
+.calm__2body span {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calm__2body span dt:nth-child(odd), .calm__2body span dt:nth-child(even) {
+  background: var(--calm-datbg);
+  color: var(--calm-font);
+  padding: 5px 10px;
+  font: 10px Calibri;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-radius: 10px;
+  margin: 2.5px 0px;
+  cursor: help;
+}
+
+.calm__2body .body__text {
+  grid-column: 1 / 4;
+  height: 200px;
+}
+
+.body__text p {
+  margin: 30px;
+  padding: 0;
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  overflow: auto;  
+  font: 13px Nunito;
+  text-align: justify;
+  color: var(--calm-font);
+}
+
+.body__text p::-webkit-scrollbar {width: 0px;border-radius: 2px;}
+.body__text p::-webkit-scrollbar-thumb {background: transparent;}
+
+.body__text p t {
+  font-size: 14px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: var(--calm-title)
+}
+
+.body__text p t::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, var(--calm-gradiente1) 0%, var(--calm-gradiente2) 70%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.calm__2body quote {
+  font: 12px Calibri;
+  text-align: justify;
+  position: relative;
+  font-style: italic;
+  color: var(--calm-font)
+}
+
+.calm__2body quote::before {
+  content: "「";
+  font-size: 20px;
+  position: absolute;
+  top: -12px;
+  left: -25px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.calm__2body quote::after {
+content: "」";
+  font-size: 20px;
+  position: absolute;
+  bottom: -12px;
+  right: -25px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.crescendum-cre a {
+  color: #9471af;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.crescendum-cre {  
+  margin: 10px auto;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
