@@ -251,7 +251,9 @@
   width: 90%;
   text-align: justify;
   margin-bottom: 30px;
-  color: var(--moonytxt)
+  color: var(--moonytxt);
+  margin-top: 6px;
+  line-height: 13px;
 }
 
 .moony-b1a lin {
