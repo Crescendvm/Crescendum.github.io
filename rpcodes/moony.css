@@ -90,7 +90,7 @@
 .mbtns i {
   font-size: 50px;
   background: var(--moonyico);
-  color: var(--moonybg);
+  color: var(--moonybgico);
   width: 100px;
   height: 100px;
   display: flex;
@@ -99,7 +99,7 @@
   border-radius: 50%;
   border: 10px solid var(--moonybg);
   position: relative;
-  cursor: pointer;
+  
 }
 
 .mbtn2 {
@@ -129,8 +129,9 @@
   margin-bottom: 5px;
   border-radius: 50%;
   cursor: pointer;
-  color: var(--moonybg);
+  color: var(--moonybgico);
   transition: background .4s ease-in-out;
+  padding: 0px!important
 }
 
 #mbtn-i1:checked ~ .mbtn2 label:nth-child(1),
