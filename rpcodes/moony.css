@@ -274,6 +274,7 @@
   color: transparent;
   position: relative;
   z-index: 21;
+  font-weight: 900;
 }
 
 .moony-texti {
