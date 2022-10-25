@@ -203,9 +203,10 @@
 .moony-texti p::selection,
 .moony-itit::selection,
 .moony-tit::selection,
-.moony-stit::selection {
-  background: var(--moonyico);
-  color: var(--moonybg)
+.moony-stit::selection,
+.moony-dat::selection {
+  background: var(--moonyselebg);
+  color: var(--moonyseleco)
 }
 
 .mb-1 {
@@ -342,7 +343,7 @@
 
 .moony-dat {
   background: var(--moonyico);
-  color: var(--moonybg);
+  color: var(--moonydaco);
   padding: 5px 10px;
   margin: 2.5px;
   border-radius: 15px;
