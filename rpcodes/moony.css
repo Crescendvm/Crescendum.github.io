@@ -89,8 +89,8 @@
 
 .mbtns i {
   font-size: 50px;
-  background: var(--moonyico);
-  color: var(--moonybgico);
+  background: var(--moonyico)!important;
+  color: var(--moonybgico)!important;
   width: 100px;
   height: 100px;
   display: flex;
@@ -125,11 +125,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--moonyico);
+  background: var(--moonyico)!important;
   margin-bottom: 5px;
   border-radius: 50%;
   cursor: pointer;
-  color: var(--moonybgico);
+  color: var(--moonybgico)!important;
   transition: background .4s ease-in-out;
   padding: 0px!important
 }
@@ -138,7 +138,7 @@
 #mbtn-i2:checked ~ .mbtn2 label:nth-child(2),
 #mbtn-i3:checked ~ .mbtn2 label:nth-child(3),
 #mbtn-i4:checked ~ .mbtn2 label:nth-child(4),
-#mbtn-i5:checked ~ .mbtn2 label:nth-child(5) {background: var(--moonyselec);}
+#mbtn-i5:checked ~ .mbtn2 label:nth-child(5) {background: var(--moonyselec)!important;}
 
 #mbtn-i1:checked ~ .mb-1 {top: 0%;}
 #mbtn-i1:checked ~ .mb-2 {top: 100%}
