@@ -90,7 +90,7 @@
 .mbtns i {
   font-size: 50px;
   background: var(--moonyico)!important;
-  color: var(--moonybgico)!important;
+  color: var(--moonyicocolor)!important;
   width: 100px;
   height: 100px;
   display: flex;
@@ -129,10 +129,12 @@
   margin-bottom: 5px;
   border-radius: 50%;
   cursor: pointer;
-  color: var(--moonybgico)!important;
+  color: var(--moonyicocolor)!important;
   transition: background .4s ease-in-out;
   padding: 0px!important
 }
+
+.mbtn2 label i {color: var(--moonyicocolor)!important;}
 
 #mbtn-i1:checked ~ .mbtn2 label:nth-child(1),
 #mbtn-i2:checked ~ .mbtn2 label:nth-child(2),
@@ -281,7 +283,7 @@
 
 .moony-texti {
   font: 12px Nunito;
-  color: var(--moonytxt1);
+  color: var(--moonytxt);
   height: 200px;
   margin: 15px 0px;
   position: relative;
@@ -342,9 +344,16 @@
   align-items: center;
 }
 
+.moonydattt {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 95%;
+  align-items: center;
+}
+
 .moony-dat {
   background: var(--moonyico);
-  color: var(--moonydaco);
+  color: var(--moonyicocolor)!important;
   padding: 5px 10px;
   margin: 2.5px;
   border-radius: 15px;
@@ -358,7 +367,7 @@
   font-size: 200px;
   position: absolute;
   top: 30px;
-  color: var(--moonybgd);
+  color: var(--moonyinteico);
   z-index: 20;
 }
 
