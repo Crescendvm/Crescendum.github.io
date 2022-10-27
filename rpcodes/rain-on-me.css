@@ -136,4 +136,5 @@ background: linear-gradient(90deg, var(--r-color-gra1) 0%, var(--r-color-gra2) 1
   text-decoration: none;
   display: inline-block;
   font-size: 13px;
+  text-transform: uppercase;
 }
