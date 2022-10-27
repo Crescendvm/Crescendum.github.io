@@ -63,6 +63,7 @@ background: linear-gradient(90deg, var(--r-color-gra1) 0%, var(--r-color-gra2) 1
   z-index: 2;
   color: var(--r-color-ti);
   flex-direction: column;
+  cursor: default;
 }
 
 .rain .r-ti .r-ti1 {
