@@ -1,0 +1,122 @@
+/* 
+                    — ☾ —
+    RAIN ON ME Copyright (C) 2022 Crescendum 
+       Visit for my codes:
+          - https://crescendumcodes.tumblr.com/
+          - https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+*/
+
+/* MAIN CSS */
+.rain {
+  width: 510px;
+  height: 210px;
+  display: flex;
+  margin: 0px auto 270px;
+  justify-content: center;
+  align-items: center;  
+  border-radius: 100px;
+  background: linear-gradient(180deg, var(--r-color-gra1) 0%, var(--r-color-gra2) 75%);
+  position: relative;
+}
+
+.rain::before {
+  content: "";
+  width: 500px;
+  height: 200px;
+  background: var(--r-color-bg);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 100px;
+  z-index: 1;
+}
+
+.rain::after {
+  content: "";
+  width: 80%;
+  height: 70px;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  border-radius: 100px;
+  transform: translatex(-50%);
+background: linear-gradient(90deg, var(--r-color-gra1) 0%, var(--r-color-gra2) 100%);
+  z-index: -1;
+}
+
+.rain img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.rain .r-ti {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  color: var(--r-color-ti);
+  flex-direction: column;
+}
+
+.rain .r-ti .r-ti1 {
+  font: 18px Nunito;
+  text-transform: uppercase;
+  font-weight: 800;
+  width: 90%;
+  text-align: center;
+  border-bottom: 1px solid var(--r-color-border);
+  padding-bottom: 5px;
+}
+
+.rain .r-ti .r-ti2 {
+  font: 11px Calibri;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 10px;
+  color: var(--r-color-txt)
+}
+
+.rain .r-text {
+  width: 300px;
+  height: 200px;
+  background: var(--r-color-bg2);
+  position: absolute;
+  bottom: -200px;
+  z-index: 2;
+}
+
+.rain .r-text p {
+  width: calc(100% - 60px - 10px);
+  height: calc(100% - 60px);
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  padding-right: 10px;
+  text-align: justify;
+  color: var(--r-color-txt);
+  font: 13px Calibri;
+  display: inline-block;
+}
+
+.rain .r-text p::-webkit-scrollbar {height: 3px;width: 3px;background: var(--r-color-scrollbg);}
+
+.rain .r-text p::-webkit-scrollbar-thumb {background: var(--r-color-scroll);border-radius: 100px;height: 40px!important;}
+
+.rain .r-text p b {
+  color: var(--r-color-border);
+}
+
+.rain .r-ti .r-ti1::selection, .rain .r-ti .r-ti2::selection, .rain .r-text p::selection {
+  background: var(--r-color-selecbg);
+  color: var(--r-color-selecco);
+}
