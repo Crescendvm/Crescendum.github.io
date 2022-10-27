@@ -121,3 +121,19 @@ background: linear-gradient(90deg, var(--r-color-gra1) 0%, var(--r-color-gra2) 1
   background: var(--r-color-selecbg);
   color: var(--r-color-selecco);
 }
+
+.crescendum-cre {  
+  margin: 10px auto;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crescendum-cre a {
+  color: #9471af;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
