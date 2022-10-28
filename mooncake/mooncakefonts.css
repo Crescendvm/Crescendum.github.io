@@ -2401,6 +2401,12 @@
 
 @font-face {font-family: Farewell; src: url('https://dl.dropbox.com/s/fw0cpxdyljyt81y/Farewell%20Pro%20Regular.ttf'); format('truetype');font-display: swap;}
 
+@font-face {font-family: Moon; src: url('https://dl.dropbox.com/s/ngbknge38ultn9u/Moon%20Light.otf'); format('embedded-opentype');font-display: swap;}
+
+@font-face {font-family: Moon; src: url('https://dl.dropbox.com/s/2l835iz9fe6tg9g/Moon%20Bold.otf'); format('embedded-opentype');font-display: swap;font-weight: bold;}
+
+@font-face {font-family: Marvin; src: url('https://dl.dropbox.com/s/wzie9ze3kpkywtq/Marvin_demo.otf'); format('embedded-opentype');font-display: swap;}
+
 @font-face {font-family: Elune; src: url('https://dl.dropbox.com/s/ckzj9ekekqrwy0t/diana%20emblem.ttf'); format('truetype');font-display: swap;font-weight:400;font-style:normal}
 
 @font-face {font-family: Lunito; src: url('https://dl.dropbox.com/s/rbyttig9h9cx76d/Elune.ttf'); format('truetype');font-display: swap;font-weight:400;font-style:normal}
