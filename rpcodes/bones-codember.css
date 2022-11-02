@@ -1,0 +1,355 @@
+
+/* 
+                    — ☾ —
+    BONES Copyright (C) 2022 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+       Icons owned by free library Honeybee/Saturn
+         ➥ Visite them in https://cappuccicons.com/
+*/
+
+/* MAIN CSS */
+.spbones-body {
+  width: 700px;
+  height: 600px;
+  margin: 30px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.spbones-body bg1 {
+  width: 600px;
+  height: 600px;  
+  background-size: cover !important;
+  background-position: -450px 0px !important;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  filter: contrast(1.3) saturate(1.5) brightness(0.9) grayscale(1);
+  z-index: 1;  
+  transform: scale(1.3)
+}
+
+.spbones-body bg2 {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  mix-blend-mode: multiply;
+  background: var(--spbones-fil);
+  z-index: 2 ;
+  display: inline-block;
+}
+
+.spbones-body .bg3 {
+  height: 100%;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  z-index: 3;
+  filter: saturate(1.5) contrast(1.3);
+  transform: scale(1.1)
+  
+}
+
+.spbones-bdy1 {
+  width: 300px;
+  height: 100%;
+  background: var(--spbones-bg);
+  position: absolute;
+  right: -40px;
+  top: 0px;
+  z-index: 2;
+  transform: rotate(15deg) scale(1.3)
+}
+
+.bdyin {
+  width: 300px;
+  height: 600px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--spbones-titu)
+}
+
+.bdyin span {
+  font-size: 400px;
+  position: absolute;
+}
+
+.spbones-titu {
+  font: 16px Eclipse;
+  line-height: 40px;
+  z-index: 2
+}
+
+.spbones-titu1 {
+  font: 30px Eclipse;
+  line-height: 40px;
+  color: var(--spbones-titu1);
+  z-index: 2
+}
+
+/* botones */
+.spbones-body input {z-index:4;}
+
+.spbones-btns {
+  z-index: 3;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: inline-flex;
+}
+
+.spbones-btns label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: var(--spbones-btnb);
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid var(--spbones-btnbor)
+}
+
+.spbones-btns label span {
+  cursor: pointer;
+  color: var(--spbones-btnco)
+}
+
+.spbones-txtb {
+  width: 300px;
+  height: 100%;
+  background: var(--spbones-bg);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  transform: translatex(300px);
+  z-index: 3;
+  transition: all 0.7s ease-in-out;
+  opacity: 0;
+}
+
+.spbones-body .spbtn-x {
+  width: 400px;
+  height: 600px;
+  z-index: 3;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.spbones-body #spbtn-1:checked ~ .txtb1 {transform: translatex(0px);opacity: 1}
+.spbones-body #spbtn-2:checked ~ .txtb2 {transform: translatex(0px);opacity: 1}
+.spbones-body #spbtn-3:checked ~ .txtb3 {transform: translatex(0px);opacity: 1}
+
+.spbones-body #spbtn-1:checked ~ .spbones-btns .spbtn-1,
+.spbones-body #spbtn-2:checked ~ .spbones-btns .spbtn-2,
+.spbones-body #spbtn-3:checked ~ .spbones-btns .spbtn-3 {
+  border-color: var(--spbones-btnbors)
+}
+
+.spbones-datb:nth-child(1) {
+  width: 300px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font: 12px Calibri;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 150px;
+  height: 100px
+}
+
+
+.spbones-datb:nth-child(1) .spbones-iconis {
+  width: 100px;
+  height: 100px;
+  background-size: cover !important;
+  background-position: center !important;
+  position: absolute;
+  transform: rotate(-45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  outline: 1px solid var(--spbones-btnbors);
+  outline-offset: 10px
+}
+
+.spbones-datb:nth-child(1) .spbones-iconis img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  object-position: center!important;
+  transform: scale(1.4) rotate(45deg);
+}
+
+.spbones-datb:nth-child(2) {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.spbones-datb:nth-child(2) .spbones-nam {
+  color: var(--spbones-nam);
+  text-align: center;
+  font: 40px Montserrat;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: -6px;
+  
+}
+
+.spbones-datb:nth-child(2) .spbones-datis {
+  color: var(--spbones-txt);
+  font: 11px montserrat;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 10px auto 0px;
+  text-align: justify;
+}
+
+.spbones-datb:nth-child(2) .spbones-datis k {
+  color: var(--spbones-btnco)
+}
+
+.spb-bin {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.spb-bin .spb-inf {
+  width: calc(100% - 40px);
+  height: 270px;
+  position: relative;
+}
+
+.spb-bin .spb-inf:nth-child(1) {margin-bottom: 20px;}
+
+.spb-bin .spb-inf .spb-infti,
+.spb-bin .spb-b1 .spb-infti,
+.spb-bin .spb-ext .spb-infti,
+.spb-bin .spb-hab .spb-infti {
+  font: 40px Poppins;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -6px;
+  background-image: linear-gradient(180deg, var(--spbones-btnco) 50%, #101010 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.spb-bin .spb-b1 .spb-infti {padding-right: 10px!important}
+
+.spb-bin .spb-inf .spb-inftxt,
+.spb-bin .spb-b1 .spb-inftxt,
+.spb-bin .spb-ext .spb-inftxt,
+.spb-bin .spb-hab .spb-inftxt {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 215px;
+  overflow: auto;
+  text-align: justify;
+  font: 13px Calibri;
+  font-weight: 500;
+  color: var(--spbones-txt)
+}
+
+.spb-bin .spb-b1 .spb-inftxt {height: 100px !important}
+
+.spb-bin .spb-ext .spb-inftxt,
+.spb-bin .spb-hab .spb-inftxt {
+  height: 150px;
+}
+
+.spb-bin .spb-inf .spb-inftxt::-webkit-scrollbar,
+.spb-bin .spb-b1 .spb-inftxt::-webkit-scrollbar,
+.spb-bin .spb-ext .spb-inftxt::-webkit-scrollbar,
+.spb-bin .spb-hab .spb-inftxt::-webkit-scrollbar {width: 3px;border-radius: 2px;display: none}
+
+.spb-bin .spb-inf .spb-inftxt::-webkit-scrollbar-thumb,
+.spb-bin .spb-b1 .spb-inftxt::-webkit-scrollbar-thumb,
+.spb-bin .spb-ext .spb-inftxt::-webkit-scrollbar-thumb,
+.spb-bin .spb-hab .spb-inftxt::-webkit-scrollbar-thumb {}
+
+.spb-b1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.spb-b1 .spb-gus,
+.spb-b1 .spb-dis {
+  width: 120px;
+  height: 150px;
+  position: relative;
+}
+
+.spbones-txtb .spb-bin .spb-ext,
+.spbones-txtb .spb-bin .spb-hab {
+  width: calc(100% - 20px);
+  height: 200px;
+  position: relative;
+}
+
+.spbones-txtb .spb-bin .spb-ext {
+  margin-bottom: 10px;
+}
+
+.spbones-txtb .spb-bin .spb-ext bk {
+  background: var(--spbones-btnco);
+  display: inline-block;
+  font-size: 15px;
+  font-family: Montserrat;
+  font-weight: 900;
+  color: var(--spbones-cext);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+
+.spbones-txtb .spb-bin .spb-hab ck {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--spbones-btnco);
+  color: var(--spbones-cext);
+  padding: 4px;
+  text-transform: uppercase;
+  font: 11px montserrat;
+  font-weight: 900;  
+}
+
+/* SELECTORES */
+.spbones-body *::selection {
+  background: var(--spbones-btnco);
+  color: var(--spbones-cext)
+}
