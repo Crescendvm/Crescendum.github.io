@@ -1,0 +1,371 @@
+
+/* 
+                    — ☾ —
+    ELUNE Copyright (C) 2022 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+       Icons by free library Honeybee/Saturn and Fontawesome
+         ➥ Visite them in https://cappuccicons.com/
+         ➥ https://fontawesome.com/
+         
+       Moonphase SVG by Crescendum
+       
+*/
+
+/* MAIN CSS */
+.elune {
+  width: 800px;
+  height: 600px;
+  background: linear-gradient(180deg, var(--lune-bg) 0%, var(--lune-bg1) 110%);
+  margin: 30px auto;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.elune .lune-bg {
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-size: cover !important;
+  filter: brightness (1.2) contrast(1.2) blur(3px);
+  transform: scale(1.1)
+}
+
+.elune lim {
+  width: 427px;
+  height: 441px;
+  background: url(https://cdn.discordapp.com/attachments/839303058823708682/1035359797635207188/phelcito.png);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-size: cover !important;
+  background-position: -60px 0px !important;
+  filter: contrast(1.3);
+}
+
+.elune .lune-bgti {
+  width: 100%;
+  height: 159px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.elune .lune-bgti .lune-ti {
+  color: var(--lune-titu);
+  font: 90px Moon;
+  margin-left: 120px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elune .lune-bgti .lune-ti l {
+  display: inline-block;
+  margin: -5px 12px 0px -14px;
+  transform: rotate(-45deg)
+}
+
+.elune .lune-bgti .lune-ti .lune-subti {
+  font: 12px Calibri !important;
+  color: var(--lune-subti);
+  position: absolute;
+  left: 70px;
+  top: 100px;
+}
+
+.elune .lune-bgti .lune-ti .lune-subti::before {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background: var(--lune-subti);
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  transform: translatey(-50%)
+}
+
+.elune .lune-bgt {
+  width: 312px;
+  height: 100%;
+  background: linear-gradient(180deg, #8474a155 0%, #241d32 70%);
+  position: absolute;
+  top: 0px;
+  right: 60px;
+}
+
+.elune .lune-bgti span {
+  color: var(--lune-ico);
+  font-size: 200px;
+  position: absolute;
+  top: -10px;
+  left: 10px
+}
+
+/* BOTONES */
+.lune-bgt input {display: none !important}
+
+.lune-bgt .lune-btns {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 100px;
+  left: 105%;
+}
+
+.lune-bgt .lune-btns label {
+  width: 30px;
+  height: 30px;
+  margin: 0px 0px 5px 0px !important;
+  background: var(--lune-bgbtn);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0 !important;
+  color: var(--lune-icobtn);
+  transition: all .5s ease-in-out;
+}
+
+.lune-bgt #l-btn-1:checked ~ .bgtby1,
+.lune-bgt #l-btn-2:checked ~ .bgtby2,
+.lune-bgt #l-btn-3:checked ~ .bgtby3,
+.lune-bgt #l-btn-4:checked ~ .bgtby4,
+.lune-bgt #l-btn-5:checked ~ .bgtby5 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.lune-bgt #l-btn-1:checked ~ .lune-btns .lbtn-1,
+.lune-bgt #l-btn-2:checked ~ .lune-btns .lbtn-2,
+.lune-bgt #l-btn-3:checked ~ .lune-btns .lbtn-3,
+.lune-bgt #l-btn-4:checked ~ .lune-btns .lbtn-4,
+.lune-bgt #l-btn-5:checked ~ .lune-btns .lbtn-5 {
+  color: var(--lune-icobtns);
+  background: var(--lune-bgbtns)
+}
+
+/**/
+
+.lune-bgt .lune-bgtbdy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: auto;
+  opacity: 0;
+  visibility: collapse;
+  transition: opacity .8s ease-in-out, visibility .5s ease-in-out
+}
+
+.lune-bgt .bgtby1,
+.lune-bgt .lune-po1 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lune-bgtbdy .lune-tituboni {
+  font: 40px Moon;
+  display: flex;
+  color: var(--lune-tituin);
+  justify-content: center;
+  align-items: center;
+}
+
+.lune-bgtbdy .lune-tituboni m {
+  transform: rotate(-45deg)
+}
+.lune-bgtbdy .lune-tituboni n {
+  transform: rotate(-45deg);
+  margin: -10px 0px 0px -10px
+}
+
+/* MOON SVG BY CRESCENDUM */
+
+.lune-moonphases {
+  width: 100%;
+  height: 250px;
+  background: var(--lune-subti);
+  
+  mask: url('https://dl.dropbox.com/s/yf7nc4s9txfxf12/moony-1.svg');
+  -webkit-mask: url('https://dl.dropbox.com/s/yf7nc4s9txfxf12/moony-1.svg');
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  
+  -moz-mask: url('https://dl.dropbox.com/s/yf7nc4s9txfxf12/moony-1.svg');
+  -moz-mask-size: 100% 100%;
+  -moz-mask-repeat: no-repeat;
+  -moz-mask-position: center;
+  
+  -o-mask: url('https://dl.dropbox.com/s/yf7nc4s9txfxf12/moony-1.svg');
+  -o-mask-size: 100% 100%;
+  -o-mask-repeat: no-repeat;
+  -o-mask-position: center;
+  
+  -ms-mask: url('https://dl.dropbox.com/s/yf7nc4s9txfxf12/moony-1.svg');
+  -ms-mask-size: 100% 100%;
+  -ms-mask-repeat: no-repeat;
+  -ms-mask-position: center;
+}
+
+/**/
+
+.moonphs {
+  height: 200px
+}
+
+.lune-bgt-ti {
+  width: 80%;
+  text-align: center;
+  font: 20px Moon;
+  background: var(--lune-bgti);
+  color: var(--lune-subti);
+  font-weight: 600;
+  padding: 20px 0px;
+}
+
+.lune-bgt-txt {
+  width: 80%;
+  height: 200px;
+  text-align: justify;
+  box-sizing: border-box;
+  border-left: 1px solid var(--lune-bgti);
+  border-right: 1px solid var(--lune-bgti);
+  border-bottom: 1px solid var(--lune-bgti);
+  margin-bottom: 20px;
+}
+
+.lunis-txt {
+  margin: 15px;
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
+  overflow: auto;
+  font: 13px Calibri;
+  display: inline-block;
+  color: var(--lune-txt)
+}
+
+.lunis-txt::-webkit-scrollbar {width: 3px;border-radius: 2px;display: none !important;}
+
+.lunis-txt::-webkit-scrollbar-thumb {background: transparent!important;}
+
+.lune-bgtbdy::-webkit-scrollbar {
+  width: 4px;
+}
+.lune-bgtbdy::-webkit-scrollbar-thumb {
+  height: 6px;
+  background: var(--lune-titu);
+  border-radius: 10px;
+}
+
+.lune-bgt .lune-bgtbdy .lun-po {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 27px
+}
+
+.lune-bgt .lune-po1 .lune-bgt-txt {
+  height: 400px
+}
+
+.lune-bgt .lune-po1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.lune-pouwu {
+  font: 12px Calibri;
+  color: var(--lune-subti);
+  display: flex;
+  width: 90%;
+  margin: 0px auto;
+  margin: 2.5px 0px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid var(--lune-icobtn);
+  box-sizing: border-box;
+  background: linear-gradient(90deg, var(--lune-titu) 0%, transparent 150%);
+  border-radius: 7px;
+  font-weight: 900;
+}
+
+.lda-no {
+  padding: 5px 10px;
+  border-right: 1px solid var(--lune-icobtn);
+}
+
+.lda-da {
+  padding: 5px 10px;
+}
+
+.lune-datisss {
+  font: 13px Calibri;
+  text-align: justify;
+  width: 200px;
+  color: var(--lune-txt);
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.lune-datisss k {
+  color: var(--lune-subti);
+}
+
+/* CORRECCIONES */
+.lune-btns .lune,
+.lune-btns .sf {
+  margin-top: 4px!important;
+}
+
+.lune-btns .lun {
+  margin-top: 5px !important;
+}
+
+/**/
+
+/* SELECTOR */
+
+.elune *::selection {
+  background: #241d32;
+  color: var(--lune-titu)
+}
+
+/**/
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 30px;
+}
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 20px;
+  transform: rotate(180deg);
+  color: #73478f;
+}
