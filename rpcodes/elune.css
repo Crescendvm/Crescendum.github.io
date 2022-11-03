@@ -110,7 +110,8 @@
   font-size: 200px;
   position: absolute;
   top: -10px;
-  left: 10px
+  left: 10px;
+  user-select: none!important;
 }
 
 /* BOTONES */
@@ -139,6 +140,7 @@
   color: var(--lune-icobtn);
   transition: all .5s ease-in-out;
   cursor: pointer;
+  user-select: none!important;
 }
 
 .lune-bgt #l-btn-1:checked ~ .bgtby1,
@@ -333,6 +335,13 @@
 .lune-datisss k {
   color: var(--lune-subti);
 }
+
+/* SELECTION */
+.elune *::selection {
+  color: var(--lune-subti);
+  background: var(--lune-ico);
+}
+/**/
 
 
 /* CREDITOS */
