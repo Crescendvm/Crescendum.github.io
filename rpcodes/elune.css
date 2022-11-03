@@ -138,6 +138,7 @@
   padding: 0 !important;
   color: var(--lune-icobtn);
   transition: all .5s ease-in-out;
+  cursor: pointer;
 }
 
 .lune-bgt #l-btn-1:checked ~ .bgtby1,
@@ -332,18 +333,6 @@
 .lune-datisss k {
   color: var(--lune-subti);
 }
-
-/* CORRECCIONES */
-.lune-btns .lune,
-.lune-btns .sf {
-  margin-top: 4px!important;
-}
-
-.lune-btns .lun {
-  margin-top: 5px !important;
-}
-
-/**/
 
 /* SELECTOR */
 
