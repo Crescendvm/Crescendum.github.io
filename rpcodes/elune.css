@@ -143,6 +143,8 @@
   user-select: none!important;
 }
 
+.lune-bgt .lune-btns label span {cursor: pointer!important}
+
 .lune-bgt #l-btn-1:checked ~ .bgtby1,
 .lune-bgt #l-btn-2:checked ~ .bgtby2,
 .lune-bgt #l-btn-3:checked ~ .bgtby3,
