@@ -367,5 +367,7 @@
   text-decoration: none;
   font-size: 20px;
   transform: rotate(180deg);
-  color: #73478f;
+  color: #73478f !important;
 }
+
+.cr-crescendum a span {color: #73478f !important;}
