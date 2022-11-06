@@ -27,7 +27,7 @@
   background: var(--sps-icon);
   display: inline-block;
   position: absolute;
-  top: -10px;
+  top: 5px;
   right: 18px;
   
   mask: url('https://dl.dropbox.com/s/jdz08gavq8l85f3/lotus_linear.svg');
