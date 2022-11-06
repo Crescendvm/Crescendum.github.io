@@ -1,0 +1,110 @@
+
+/* 
+                    — ☾ —
+    ENVELOPE Copyright (C) 2022 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+       SVG image by Crescendum
+*/
+
+
+/* MAIN CSS */
+.sp-sobre {
+  width: 400px;
+  height: 500px;
+  background: var(--sps-bg);
+  position: relative;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.sp-sobre ki {
+  width: 180px;
+  height: 180px;
+  background: var(--sps-icon);
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  right: 18px;
+  
+  mask: url('https://dl.dropbox.com/s/jdz08gavq8l85f3/lotus_linear.svg');
+  -webkit-mask: url('https://dl.dropbox.com/s/jdz08gavq8l85f3/lotus_linear.svg');
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  
+  -moz-mask: url('https://dl.dropbox.com/s/jdz08gavq8l85f3/lotus_linear.svg');
+  -moz-mask-size: 100% 100%;
+  -moz-mask-repeat: no-repeat;
+  -moz-mask-position: center;
+  
+  -o-mask: url('https://dl.dropbox.com/s/jdz08gavq8l85f3/lotus_linear.svg');
+  -o-mask-size: 100% 100%;
+  -o-mask-repeat: no-repeat;
+  -o-mask-position: center;
+  
+  -ms-mask: url('https://dl.dropbox.com/s/jdz08gavq8l85f3/lotus_linear.svg');
+  -ms-mask-size: 100% 100%;
+  -ms-mask-repeat: no-repeat;
+  -ms-mask-position: center;
+}
+
+.sp-sobre .sps-bg {
+  width: 150px;
+  height: 100%;
+  background-size: cover !important;
+  position: absolute;
+  top: 0px;
+  left: 30px;
+}
+
+.sp-sobre .sps-txt {
+  width: calc(100% - 150px - 70px);
+  height: 230px;
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  color: var(--sps-txt);
+  font: 13px Calibri;
+  text-align: justify;
+  overflow: auto;
+}
+
+.sp-sobre .sps-txt::-webkit-scrollbar {width: 3px;border-radius: 2px;display: none !important}
+
+.sp-sobre .sps-txt::-webkit-scrollbar-thumb {background: transparent !important;}
+ 
+.sp-sobre .sps-names {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  font: 13px Calibri;
+  font-weight: 900;
+  font-style: italic;
+  color: var(--sps-namco);
+  
+}
+
+.sp-sobre *::selection {
+  background: var(--sps-selbg);
+  color: var(--sps-selco)
+}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 20px;
+  transform: rotate(180deg);
+  color: #73478f;
+}
