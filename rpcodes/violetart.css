@@ -1,0 +1,226 @@
+
+/* 
+                    — ☾ —
+    Violet art Copyright (C) 2022 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+       SVG image by Crescendum
+*/
+
+
+/* MAIN CSS */
+
+.sp-bhs {
+  width: 500px;
+  height: 500px;
+  border: 20px solid var(--spbhs-bg);
+  margin: 30px auto;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  background: var(--spbhs-bg);
+}
+
+.sp-bhs kbg:nth-child(1) {
+  display: inline-block;
+  width: calc(100% - 150px);
+  height: 100%;
+  background: var(--spbhs-bgf);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2 !important;
+  mix-blend-mode: multiply;  
+  transition: transform .8s ease-in-out .3s;
+}
+
+.sp-bhs .spbhs-bg {
+  width: calc(100% - 150px);
+  height: 100%;
+  object-fit: cover !important;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1 !important;
+  filter: grayscale(1);
+  transition: transform .8s ease-in-out .3s;
+}
+
+.sp-bhs kbg:nth-child(2) {
+  display: inline-block;
+  width: 150px;
+  height: 100%;
+  background: var(--spbhs-bg1);
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sp-bhs .spbhs-ti {
+  font: 20px Poppins;
+  font-weight: 800;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  position: absolute;
+  color: var(--spbhs-ti);
+  width: 460px;
+  display: inline-flex !important;
+  transform-origin: left top;
+  top: 0px;
+  right: -460px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sp-bhs .spbhs-ti::before {
+  content: "—"; 
+  color: var(--spbhs-ti);
+  padding-right: 10px;
+}
+
+.sp-bhs:hover .spbhs-bg {
+  transform: translatex(-310px);
+}
+
+.sp-bhs:hover kbg:nth-child(1) {
+  transform: translatex(-310px);
+}
+
+.sp-bhs .spbhs-bo {
+  width: 310px;
+  height: 460px;
+  background: var(--spbhs-bg2);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+.sp-bhs .spbhs-bo kcrr {
+  display: inline-block;
+  width: 100%;
+  height: calc(100% - 40px);
+  margin-top: 20px;
+  overflow: auto;
+}
+
+.sp-bhs .spbhs-bo__dy {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  margin: 0px auto 20px;
+}
+
+.sp-bhs .spbhs-bo__dy .spbhs-dab da,
+.sp-bhs .spbhs-bo__dy .spbhs-dab dapb {
+  min-width: 113px;
+  background: var(--spbhs-bg1);
+  color: var(--spbhs-ti);
+  margin: 5px 10px;
+  display: inline-block;
+  padding: 5px 10px;
+  font: 11px Calibri;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+}
+
+.sp-bhs .spbhs-bo__dy .spbhs-dab dapb {
+  width: calc(100% - 40px);
+}
+
+.sp-bhs .spbhs-bo .spbhs-txt {
+  width: calc(100% - 40px);
+  margin: 0px auto;
+  text-align: justify;
+  color: var(--spbhs-txt);
+  font: 13px Calibri;
+}
+
+.sp-bhs .spbhs-bo kcrr::-webkit-scrollbar {width: 3px;border-radius: 2px;display: none}
+
+.sp-bhs .spbhs-bo kcrr::-webkit-scrollbar-thumb {background: }
+
+.sp-bhs .spbhs-bo .spbhs-tii {
+  position: relative;
+  text-align: right
+}
+.sp-bhs .spbhs-bo .spbhs-titul {
+  font: 20px Poppins;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: italic;
+  text-align: right;
+  background: var(--spbhs-bg2);
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  padding: 0px 0px 0px 10px;
+  color: var(--spbhs-bg1)
+}
+
+.sp-bhs .spbhs-bo .spbhs-tii::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translatey(-50%);
+  width: calc(310px - 40px);
+  height: 2px;
+  background: var(--spbhs-bg1);
+}
+
+.sp-bhs .spbhs-bo kex,
+.sp-bhs .spbhs-bo kexl,
+.sp-bhs .spbhs-bo kexh {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--spbhs-bg1);
+  padding: 5px;
+  color: var(--spbhs-ti);
+  font: 12px Poppins;
+  font-weight: 900;
+}
+
+.sp-bhs .spbhs-bo kexl {
+  background: transparent !important;
+  font-size: 15px;
+}
+
+.sp-bhs .spbhs-bo kexh {
+  border-radius: 30px;
+  padding: 0px 10px;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  font-size: 11px;
+}
+
+/* SELECTION */
+.sp-bhs *::selection {
+  background: var(--spbhs-selbg);
+  color: var(--spbhs-selco)
+}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 20px;
+  transform: rotate(180deg);
+  color: #73478f;
+}
