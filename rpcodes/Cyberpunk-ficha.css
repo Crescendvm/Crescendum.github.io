@@ -92,14 +92,14 @@
   left: 100px;
   width: 330px;
   height: 1em;
-  overflow: hidden;
   position: absolute;
-  top: 110px;
-  left: 90px;
+  top: 230px !important;
+  left: 140px !important;
   transform: rotate(-48deg);
   font-size: 28px;
   overflow: hidden;
   white-space: nowrap;
+  transform-origin: left top;
 }
 
 .titu2 p{
