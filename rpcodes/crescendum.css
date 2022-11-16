@@ -1,0 +1,55 @@
+/* MAIN CSS */
+.crescendum {
+  width: 400px;
+  height: 500px;
+  background: #060606;
+  margin: 30px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.crescendum__text::selection {
+  background: var(--cele);
+  color: var(--celec)
+}
+
+.crescendum__text {
+  font: 12px Nunito;
+  text-align: justify;
+  color: #fefefe;
+  width: 300px;
+  height: 250px;
+  margin-bottom: 30px;
+  overflow: auto;
+}
+
+.crescendum__text::-webkit-scrollbar {width: 3px;border-radius: 2px;display: none;}
+
+.crescendum__text::-webkit-scrollbar-thumb {background: transparent}
+
+.crescendum .lun {
+  color: var(--celun);
+  font-size: 30px;
+  transform: rotate(180deg);
+  text-shadow: #654284 0 0 30px;
+  animation-name: glow;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  margin-bottom: 30px;
+}
+
+@keyframes glow {
+  from {text-shadow: #fff 0 0 30px;}
+  to {text-shadow: #fff 0 0 10px;}
+}
+
+.crescendum el {
+  display: block;
+  width: 1px;
+  height: 70px;
+  background: var(--celun);
+}
