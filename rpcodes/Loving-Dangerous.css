@@ -1,0 +1,208 @@
+
+/* 
+                    — ☾ —
+    Loving Dangerous Copyright (C) 2022 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+       Icons owned by free old library Honeybee/Saturn
+         ➥ Visite them in https://cappuccicons.com/
+*/
+
+/* MAIN CSS */
+.lovingdangerous * {
+  cursor: default;
+}
+
+.lovingdangerous *::selection {
+  background: var(--ld-subtibg);
+  color: var(--ld-subtico);
+}
+
+.lovingdangerous {
+  width: 600px;
+  height: 400px;
+  background: var(--ld-bg);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.ld-conte {
+  width: calc(100% - 50%);
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ld-img {
+  width: calc(100% - 50%);
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.ld-ico {
+  width: 130px;
+  height: 130px;
+  background-size: cover !important;
+  background-position: center !important;
+  position: relative;
+  border-radius: 50%;
+  border: 10px solid var(--ld-bg);
+}
+
+.ld-ct {
+  font: 30px Poppins;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 23px;
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  width: 195px;
+  text-align: center;
+  transform: translate(0px, -50%);
+  color: var(--ld-tituco);
+  transition: all .8s ease-in-out;
+}
+
+.ld-cs {
+  font: 11px Calibri;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  background: var(--ld-subtibg);
+  color: var(--ld-subtico);
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 50px;
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  width: calc(195px - 20px);
+  text-align: center;
+  transition: all .8s ease-in-out;
+}
+
+.ld-ctb {
+  width: 195px;
+  height: 280px;
+  position: absolute;
+  left: 20px;
+  bottom: -295px;
+  opacity: 0;
+  visibility: collapse;
+  transition: all .8s ease-in-out;
+}
+
+.ld-ctxt {
+  font: 12px Calibri;
+  text-align: justify;
+  color: var(--ld-txt);
+  width: calc(100% - 5px);
+  height: 100%;
+  overflow: auto;
+  padding-right: 5px;
+}
+
+.ld-ctxt b {
+  color: var(--ld-subtibg) ;
+  font-weight: 900;
+  font-family: Nunito;
+}
+
+.ld-ctxt i {
+  font-style: italic;
+  color: var(--ld-subtibg);
+}
+
+.iconi-b {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 16px;
+  bottom: 10px;
+  left: 10px;
+  width: 18px;
+  height: 18px;
+  opacity: 1;
+  visibility: visible;
+  transition: all .8s ease-in-out;
+}
+
+.iconi {
+  color: var(--ld-subtibg);
+  animation: luvs 1s linear infinite alternate;
+}
+
+@keyframes luvs {
+  0% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(15deg);
+  }
+}
+
+
+.lovingdangerous:hover .ld-ct {
+  top: 50px;
+  font-size: 20px;
+  line-height: 16px
+}
+
+.lovingdangerous:hover .ld-cs {
+  top: 10px;
+  font-size: 9px;
+  border-radius: 0px;
+  background: transparent;
+  border-bottom: 1px solid var(--ld-subtibg);
+  color: var(--ld-subtibg);
+}
+
+.lovingdangerous:hover .ld-ctb {
+  bottom: 20px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.lovingdangerous:hover .iconi-b {
+  visibility: collapse;
+  opacity: 0;
+}
+
+.ld-ctxt::-webkit-scrollbar {width: 2px;height: 2px;border-radius: 2px;}
+
+.ld-ctxt::-webkit-scrollbar-thumb {background: var(--ld-subtibg);border-radius: 50%; height: 60px}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 20px;
+  transform: rotate(180deg);
+  color: #73478f;
+}
