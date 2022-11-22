@@ -507,7 +507,7 @@
 
 
 /* SCROLL */
-.ldatxtb::-webkit-scrollbar {width: 6px;}
+.ldatxtb::-webkit-scrollbar {width: 5px;}
 .ldatxtb::-webkit-scrollbar-thumb {background: #000;border-radius: 50px}
 .ldatxtb::-webkit-scrollbar-button {display: none;}
 
