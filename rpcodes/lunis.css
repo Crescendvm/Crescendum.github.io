@@ -169,6 +169,7 @@
   background: var(--luni-bg);
   padding: 0px 10px;
   font-weight: 600;
+  color: #000;
 }
 
 /* BOTONES */
@@ -449,6 +450,7 @@
   font: 12px Calibri;
   text-align: justify;
   padding-right: 5px;
+  color: #000;
 }
 
 .ldatxtin {
