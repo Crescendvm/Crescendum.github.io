@@ -474,9 +474,11 @@
   text-transform: uppercase;
   font-family: Nunito;
   font-size: 10px;
+  color: #000 !important;
 }
 .ldatxtb i {
   font-weight: 900;
+  color: #000 !important;
 }
 
 .ldatxtb ls {
