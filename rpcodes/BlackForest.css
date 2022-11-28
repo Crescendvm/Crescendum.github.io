@@ -83,11 +83,6 @@
   color: #fff;
 }
 
-#blackforest.blfo-color *::selection {
-  background: cyan;
-  color: #000;
-}
-
 /* CREDITOS */
 .cr-crescendum {
   width: 30px;
