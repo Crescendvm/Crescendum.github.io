@@ -25,6 +25,8 @@
 
 #blackforest .blkfrs:nth-child(1) {
   font: 70px Amoret;
+  position: relative;
+  z-index: 2 !important;
 }
 
 #blackforest .blkfrs:nth-child(2) {
