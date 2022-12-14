@@ -73,7 +73,7 @@
   left: 284px;
   background: var(--qnfibg);
   border-color: var(--qnfibo);
-  color: var(--qnficol);
+  color: var(--qnficol) !important;
 }
 
 .qnfic span {padding: 0px !important; margin: 0px !important;}
@@ -117,7 +117,7 @@
   text-decoration: none;
   font-size: 20px;
   transform: rotate(180deg);
-  color: #73478f;
+  color: #73478f !important;
 }
 
 /* ICON SPECIAL */
