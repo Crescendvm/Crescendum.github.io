@@ -103,6 +103,23 @@
 .qnic2:hover ~ .qnfl2 {left: 210px;visibility: visible;opacity: 1}
 .qnic3:hover ~ .qnfl3 {left: 210px;visibility: visible;opacity: 1}
 
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 20px;
+  transform: rotate(180deg);
+  color: #73478f;
+}
+
 /* ICON SPECIAL */
 @font-face {font-family: Elune; src: url('https://dl.dropbox.com/s/ckzj9ekekqrwy0t/diana%20emblem.ttf'); format('truetype');font-display: swap;font-weight:400;font-style:normal}
 
