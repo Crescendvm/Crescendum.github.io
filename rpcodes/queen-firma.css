@@ -1,0 +1,117 @@
+/* 
+                    — ☾ —
+    Queen Copyright (C) 2022 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+*/
+
+/*--- main css ---*/
+@font-face {font-family: Mooncake; src: url('https://dl.dropbox.com/s/dzj1nwsfkwevmdp/Eastwood.ttf'); format('truetype');}
+
+.lovi-00 {
+  width: 500px;
+  height: 180px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.lovi-01 {
+  width: 300px;
+  height: 180px;
+  background-size: cover !important;
+}
+
+.lovi02 {
+  font: 50px Mooncake;
+  font-style: italic;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.lovi03 {
+  font: 12px Calibri;
+  text-align: justify;
+  width: 150px;
+  margin: 0px 25px;
+  height: 90px;
+  overflow: auto;
+}
+
+.lovi03::-webkit-scrollbar { display: none} 
+.lovi03::-webkit-scrollbar-thumb { background: transparent;}
+
+.lovili {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 5px solid;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  border-radius: 50%;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  left: 284px;
+}
+
+.lovili span {padding: 0px !important; margin: 0px !important;}
+
+.lvli1 {top: 30px}
+.lvli2 {top: 70px}
+.lvli3 {top: 110px}
+
+.loviflot {
+  background-color: rgba(0,0,0,0.5);
+  color: #cecece;
+  font: 9px Calibri;
+  text-transform: uppercase;
+  padding: 10px;
+  position: absolute;
+  left: 190px;
+  opacity: 0;
+  visibility: collapse;
+  transition: all .6s ease-in-out;
+}
+
+.flot1 {top: 32px}
+.flot2 {top: 72px}
+.flot3 {top: 112px}
+
+.lvli1:hover ~ .flot1 {left: 205px;visibility: visible;opacity: 1}
+.lvli2:hover ~ .flot2 {left: 210px;visibility: visible;opacity: 1}
+.lvli3:hover ~ .flot3 {left: 210px;visibility: visible;opacity: 1}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 20px;
+  transform: rotate(180deg);
+  color: #73478f;
+}
+
+/* ICON SPECIAL */
+@font-face {font-family: Elune; src: url('https://dl.dropbox.com/s/ckzj9ekekqrwy0t/diana%20emblem.ttf'); format('truetype');font-display: swap;font-weight:400;font-style:normal}
+
+.lun:before,[data-icon]:before{font-family:"Elune"!important;content:attr(data-icon);font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}[class^="lun-"]:before,[class*=" lun-"]:before{font-family:"Elune"!important;font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+.lun-elune:before{content:"\e900"}
