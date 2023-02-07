@@ -1,0 +1,88 @@
+
+/* 
+                    — ☾ —
+    Destroy Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+       
+*/
+
+/* MAIN CSS */
+.destroy {
+  width: 400px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid;
+}
+
+.destroy fkuu {
+  margin: 30px auto;
+}
+
+.destroy .thefeelings {
+  font: 40px Times New Roman;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -1px;
+}
+
+.destroy .myfeelings {
+  font: 7px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.destroy_ {
+  width: 400px;
+  margin: 0px auto 30px;
+}
+
+.destroy_ .everything {
+  font: 13px Nunito;
+  text-align: justify;
+}
+
+.neverforget {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.neverforget fkc:nth-child(1),
+.neverforget fkc:nth-child(3){
+  width: 47%;
+  height: 1px;
+  display: block;
+}
+
+.neverforget fkc:nth-child(2) {
+  width: 14px;
+  height: 14px;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  transform: rotate(-45deg);
+  margin-top: -6px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 20px;
+  transform: rotate(180deg);
+}
