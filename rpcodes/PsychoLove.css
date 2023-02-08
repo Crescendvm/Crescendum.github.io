@@ -1,0 +1,76 @@
+
+/* 
+                    — ☾ —
+    Destroy Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+       
+*/
+
+/* MAIN CSS */
+.youre {
+  width: 400px;
+  margin: 30px auto;
+  border: 1px solid
+}
+
+.youre .inlove {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.youre .inlove .with {
+  font: 30px Montserrat;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.youre .inlove .apsycho {
+  font: 7px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.youre .nothing {
+  color: #787878;
+  font: 13px Nunito;
+  text-align: justify;
+  margin: 0px 40px;
+}
+
+.youre .you {
+  width: 400px;
+  height: 90px;
+  background-size: cover !important;
+  background-position: center !important;
+  margin-top: 30px;
+}
+
+.youre .you cando {
+  display: inline-block;
+  width: 100%;
+  height: 100%;  
+}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 20px;
+  transform: rotate(180deg);
+  color: #787878
+}
