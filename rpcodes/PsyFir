@@ -1,0 +1,78 @@
+/* 
+                    — ☾ —
+    PsychoLove Firma Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+       Don't take my codes without permission!
+        
+       
+*/
+
+/* MAIN CSS */
+.psy {
+  width: 500px;
+  position: relative;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.psy .psy1 {
+  width: calc(100% - 130px - 10px);
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.psy .psy2 {
+  width: 130px;
+  height: 130px;
+}
+
+.psy .psy1a {
+  width: 60%;
+  font: 7px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.psy .psy1b {
+  font-size: 50px;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+.psy .psy1a .psy1c {
+  font: 15px Georgia;
+  text-transform: uppercase;
+  font-weight: 600;
+  animation: psycho 1s linear infinite;
+}
+
+@keyframes psycho {
+  0% {transform: translatex(0px)}
+  25%{transform: translatex(3px);filter: blur(2px)}
+  50% {transform: translatex(0px)}
+  75% {transform: transpatex(-3px)}
+  100% {transform: translatex(0px)}
+}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 13px;
+  transform: rotate(180deg);
+  color: #787878
+}
