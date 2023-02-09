@@ -2902,6 +2902,11 @@
 
 @font-face {font-family: Marvin; src: url('https://dl.dropbox.com/s/wzie9ze3kpkywtq/Marvin_demo.otf'); format('embedded-opentype');font-display: swap;}
 
+@font-face {font-family: Dist; src: url('https://dl.dropbox.com/s/14grsa28ah3f8bv/vaporizedbb_reg.ttf'); format('embedded-opentype');font-display: swap;}
+
+@font-face {font-family: Dist; src: url('https://dl.dropbox.com/s/pmy5pac55ck4c88/vaporizedbb_ital.ttf'); format('embedded-opentype');font-display: swap;font-style: italic}
+
+
 @font-face {font-family: Elune; src: url('https://dl.dropbox.com/s/ckzj9ekekqrwy0t/diana%20emblem.ttf'); format('truetype');font-display: swap;font-weight:400;font-style:normal}
 
 @font-face {font-family: Lunito; src: url('https://dl.dropbox.com/s/rbyttig9h9cx76d/Elune.ttf'); format('truetype');font-display: swap;font-weight:400;font-style:normal}
