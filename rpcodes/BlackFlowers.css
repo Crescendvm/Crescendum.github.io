@@ -1,0 +1,96 @@
+/* 
+                    — ☾ —
+    BlackFlowers Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+       Don't take my codes without permission!
+        
+       
+*/
+
+/* MAIN CSS */
+.BeWa {
+  width: 400px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 30px auto 0px;
+  background: #000;
+  flex-direction: column;
+  border: 1px solid #111;
+  box-sizing: border-box;
+}
+
+.BeWb {
+  background: url(https://i.imgur.com/KlUHFiD.png);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-size: 200%;
+  filter: invert(1) brightness(6%);
+  background-position: -60px;
+}
+
+.BeWc {
+  font: 40px Times New Roman;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -1px;
+  position: relative;
+}
+
+.BeWd {
+  font: 7px Tahoma;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.BeWe {
+  width: 400px;
+  background: #000;
+  color: #787878;
+  text-align: justify;
+  font: 12px Calibri;
+  margin: 0px auto;
+  padding: 40px;
+  box-sizing: border-box;
+  border-left: 1px solid #111;
+  border-right: 1px solid #111;
+}
+
+.BeWf {
+  width: 400px;
+  height: 40px;
+  margin: 0px auto 30px;
+  position: relative;
+  border: 1px solid #111;
+  background: #000;
+  box-sizing: border-box;
+}
+
+.BWb {
+  background-position: -100px !important;
+  background-size: 100%;
+}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 13px;
+  transform: rotate(180deg);
+  color: #787878
+}
