@@ -1,0 +1,98 @@
+/* 
+                    — ☾ —
+    BehindWorld Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+       Don't take my codes without permission!
+        
+       
+*/
+
+/* MAIN CSS */
+.military {
+  width: 400px;
+  min-height: 150px;
+  margin: 30px auto 0px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.militarya {
+  background: url(https://i.imgur.com/pc7krH9.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  filter: grayscale(1) brightness(5%);
+}
+
+.military mil {
+  margin: 30px auto;
+  position: relative;
+}
+
+.militaryb {
+  font: 30px Montserrat;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -3px;
+}
+
+.militaryc {
+  font: 7px Tahoma;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.military mil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.military span {
+  font-size: 40px;
+}
+
+.militarydd {
+  width: 400px;
+  margin: 0px auto;
+  background: #000;
+  color: #787878;
+  font: 12px Calibri;
+  text-align: justify;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.militarye {
+  width: 400px;
+  height: 30px;
+  margin: 0px auto 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 13px;
+  transform: rotate(180deg);
+  color: #787878
+}
