@@ -3,12 +3,14 @@
 
 /*BRONKENHEART*/
 @font-face {
-  font-family: 'BH-Crescendum';
-  url('https://dl.dropbox.com/s/8wu8y0uavbdh8cr/BH-Crescendum.ttf') format('truetype')
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+  font-family: Elune;
+  src: url('https://dl.dropbox.com/s/8wu8y0uavbdh8cr/BH-Crescendum.ttf');
+  format('truetype');
+  font-display: swap;
+  font-weight:400;
+  font-style:normal
 }
+
 
 .bhc:before,[data-icon]:before {
 font-family: "BH-Crescendum"!important;
