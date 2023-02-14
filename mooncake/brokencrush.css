@@ -1,7 +1,0 @@
-@font-face {font-family: Broken Cora; src: url('https://dl.dropbox.com/s/y82tsvcoisjgy25/BHCrescendum.ttf'); format('truetype');font-display: swap;font-weight:400;font-style:normal}
-
-.bhc:before,[data-icon]:before{font-family:"Broken Cora"!important;content:attr(data-icon);font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}[class^="bhc-"]:before,[class*=" bhc-"]:before{font-family:"Broken Cora"!important;font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-
-
-.bhc-crush-o:before{content:"\e900"}
-.bhc-crush-1:before{content:"\e906"}
