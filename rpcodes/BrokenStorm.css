@@ -1,0 +1,193 @@
+/* 
+                    — ☾ —
+    BrokenStorm Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+       
+*/
+
+/* ICONO */
+@font-face {font-family: BHCrescendum; src: url('https://dl.dropbox.com/s/eutqixe10r1gq0d/BHCrescedum.ttf'); format('truetype');font-display: swap;font-weight:400;font-style:normal}
+
+.bhc:before,[data-icon]:before{font-family:"BHCrescendum"!important;content:attr(data-icon);font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}[class^="bhc-"]:before,[class*=" bhc-"]:before{font-family:"BHCrescendum"!important;font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+.bhc-knife:before{content:"\e900"}
+.bhc-crush:before{content:"\e901"}
+
+/*------------------*/
+
+/* MAIN CSS */
+.loveless {
+  width: 400px;
+  min-height: 200px;
+  background: #000;
+  border: 1px solid #111;
+  margin: 30px auto;
+}
+
+.loveless lvs {
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.loveless lvss {
+  display: inline-flex;
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  flex-direction: column;
+  margin-top: 25px;
+  position: relative;
+}
+
+.loveless lvss .bhc {
+  font-size: 60px;
+  position: relative;
+}
+
+.loveless lvss .bhc-crush {
+  transform: rotate(-25deg);
+  animation: crushheart 6s linear infinite;
+}
+
+@keyframes crushheart {
+  0% {opacity: 1}
+  25% {opacity: 0}
+  50% {opacity: 1}
+  75% {opacity: 0}
+  100% {opacity: 1}
+}
+
+.loveless lvss .bhc-knife {
+  font-size: 50px;
+  position: absolute;
+  top: -15px;
+  left: 45px;
+  transform: scaleX(-1) rotate(80deg);
+  opacity: 1;
+}
+
+.desire {
+  font: 50px Montserrat;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -3px;
+  font-style: italic;
+  text-align: left;
+  border-left: 2px solid;
+  padding-left: 5px;
+  line-height: 37px
+}
+
+.desire1 {
+  font: 7px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: justify;
+  width: 70px;
+}
+
+.past {
+  color: #787878;
+  margin: 0px auto;
+  width: 90%;
+  text-align: center;
+  font-size: 11px;
+}
+
+.past a {
+  font: 8px Tahoma;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-bottom: 1px solid;
+  transition: .7s ease-in-out;
+  border-color: transparent;
+}
+
+.past .us1:hover,
+.past .us2:hover{
+  padding-bottom: 3px;
+}
+
+.disappointment {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.disappointment .rage {
+  width: 100px;
+  height: 100px;
+  background-position: center !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.disappointment .rage .dependence {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(180deg, #000 0%, transparent 600%);
+  position: absolute;
+  top: 100px; 
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: .6s ease-in-out;
+}
+
+.disappointment:hover .dependence {
+  top: 0px;
+}
+
+.disappointment .rage bh {
+  font-size: 15px;
+}
+
+.disappointment .rage .sick {
+  font: 15px Montserrat;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: 900;
+}
+
+.disappointment .rage .good {
+  font: 7px Tahoma;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.disappointment .love {
+  width: calc(100% - 100px - 10px);
+  height: 100px;
+  background: #0e0e0e;
+  color: #787878;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disappointment .love .falls {
+  width: calc(100% - 20px - 5px);
+  height: calc(100% - 20px);
+  text-align: justify;
+  font: 12px Calibri;
+  overflow: auto;
+  padding-right: 5px;
+}
+
+.falls::-webkit-scrollbar {width: 2px;border-radius: 2px;}
+
+.falls::-webkit-scrollbar-thumb {background: #481d1a }
+
+.falls::-webkit-scrollbar-button {display: none !important}
