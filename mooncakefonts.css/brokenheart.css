@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+/*BRONKENHEART*/
+@font-face {
+  font-family: 'BH-Crescendum';
+  url('https://dl.dropbox.com/s/8wu8y0uavbdh8cr/BH-Crescendum.ttf') format('truetype')
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.bhc:before,[data-icon]:before {
+font-family: "BH-Crescendum"!important;
+content: attr(data-icon);
+font-style: normal!important;
+font-weight: 400!important;
+font-variant: normal!important;
+text-transform: none!important;
+speak: none;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale
+}
+
+[class^="bhc-"]:before,[class*=" bhc-"]:before {
+font-family:"BH-Crescendum"!important;
+font-style: normal!important;
+font-weight: 400!important;
+font-variant: normal!important;
+text-transform: none!important;
+speak: none;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale
+}
+
+.bhc-broken-o:before{content:"\e900"}
+.bhc-broken-1:before{content:"\e906"}
