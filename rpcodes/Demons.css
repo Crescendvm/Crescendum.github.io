@@ -1,0 +1,111 @@
+/* 
+                    — ☾ —
+    Demons Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+       Don't take my codes without permission!
+        
+       
+*/
+
+/* MAIN CSS */
+
+.demons {
+  width: 500px;
+  min-height: 400px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.demons_1 {
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.demons_1 dmns {
+  width: 100px;
+  height: 100px;
+  
+  mask: url('https://dl.dropbox.com/s/2atn6lf30hkahfh/pngwing.com.svg');
+  -webkit-mask: url('https://dl.dropbox.com/s/2atn6lf30hkahfh/pngwing.com.svg');
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  
+  -moz-mask: url('https://dl.dropbox.com/s/2atn6lf30hkahfh/pngwing.com.svg');
+  -moz-mask-size: 100%;
+  -moz-mask-repeat: no-repeat;
+  -moz-mask-position: center;
+  
+  -o-mask: url('https://dl.dropbox.com/s/2atn6lf30hkahfh/pngwing.com.svg');
+  -o-mask-size: 100%;
+  -o-mask-repeat: no-repeat;
+  -o-mask-position: center;
+  
+  -ms-mask: url('https://dl.dropbox.com/s/2atn6lf30hkahfh/pngwing.com.svg');
+  -ms-mask-size: 100%;
+  -ms-mask-repeat: no-repeat;
+  -ms-mask-position: center;
+}
+
+.demons_1 dmnk {
+  width: 1px;
+  height: 100px;
+  margin: 20px 0px;
+}
+
+.demons_1a {
+  font: 35px Montserrat;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -3px;
+  max-width: 160px;
+  line-height: 27px;
+  text-align: left;
+}
+
+.demons_1b {
+  color: #787878;
+  font: 7px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 3px;
+  width: 150px;
+  text-align: left;
+}
+
+.demons_2 {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.demons_2a {
+  color: #787878;
+  text-align: justify;
+  font: 13px Times New Roman;
+  width: calc(100% - 20px - 5px);
+  height: calc(100% - 60px);
+  overflow: auto;
+  padding-right: 5px;
+}
+
+.demons_2a::-webkit-scrollbar {width: 1px;border-radius: 2px;}
+.demons_2a::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* CREDITOS */ .cr-crescendum { width: 30px; height: 30px; display: flex; justify-content: center; align-items: center; margin: 0px auto; } .cr-crescendum a { text-decoration: none; font-size: 13px; transform: rotate(180deg); color: #787878 }
