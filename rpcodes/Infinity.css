@@ -1,0 +1,104 @@
+
+/* 
+                    — ☾ —
+    Infinity Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+       Don't take my codes without permission!
+        
+       
+*/
+
+/* MAIN CSS */
+.infinity {
+  width: 500px;
+  height: 500px;
+  margin: 30px auto;
+  position: relative;
+}
+
+.inf_img {
+  width: 200px;
+  height: 100%;
+  background-size: cover !important;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  filter: grayscale(1) contrast(150%) brightness(70%);
+}
+
+.infinity imgfil {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  mix-blend-mode: multiply;
+}
+
+.inf_fil {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(90deg, transparent 0%, #000 40%)
+}
+
+.inf_txtb {
+  width: calc(100% - 200px);
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#inf_icon {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.inf_txt {
+  font: 13px Calibri;
+  color: #787878;
+  text-align: justify;
+  width: calc(100% - 20px);
+  max-height: 300px;
+  overflow: auto;
+}
+
+.inf_txt::-webkit-scrollbar {width: 3px;border-radius: 2px;display: none}
+
+.inf_pos {
+  color: #787878;
+  font: 7px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  width: 150px;
+  bottom: 25px;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+  text-align: right;
+}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 13px;
+  transform: rotate(180deg);
+  color: #787878
+}
