@@ -1,0 +1,204 @@
+
+/* 
+                    — ☾ —
+    The Deathless Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+       Don't take my codes without permission!
+        
+       
+*/
+
+/* MAIN CSS */
+.relations {
+  width: 800px;
+  margin: 30px auto;
+  background: #000
+}
+
+.rel_sup {
+  width: 100%;
+  height: 180px;
+  position: relative;
+}
+
+.rel_sup_img {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.rel_sup_fil {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, transparent -30%, #000 103%);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rel_sup_tib {
+  width: 50%;
+}
+
+.rel_sup_ti {
+  font: 60px Montserrat;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -5px;
+  line-height: 44px;
+  font-style: italic;
+}
+
+.rel_sup_su {
+  font: 7px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.frens_b {
+  width: calc(100% - 20px);
+  display: flex;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  flex-flow: row wrap;
+  margin-left: 10px;
+  justify-content: space-evenly;
+}
+
+.frens {
+  width: 150px;
+  height: 150px;
+  background-size: cover !important;
+  position: relative;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 10px solid #111;
+}
+
+.frens_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: .5s ease-in-out;
+}
+
+.frens_1 {
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: .5s ease-in-out
+}
+
+.frens_2 {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, transparent -60%, #000 110%);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: .5s ease-in-out
+}
+
+.frens_3 {
+  font: 20px Poppins;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -2px;
+  position: relative;
+  z-index: 3 !important;
+  line-height: 20px;
+  opacity: 0;
+  transition: .5s cubic-bezier(.36,.61,.99,.05);
+}
+
+.frens_3a {
+  font: 7px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 3 !important;
+  color: #fff;
+  opacity: 0;
+  transition: .6s cubic-bezier(.36,.61,.99,.05);
+}
+
+.frens_4 {
+  width: 100%;
+  height: 55px;
+  background: #000;
+  position: absolute;
+  bottom: -55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .8s ease-in-out;
+}
+
+.frens_4a {
+  width: calc(100% - 15px - 5px);
+  height: calc(100% - 15px);
+  color: #787878;
+  overflow: auto;
+  font: 7px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding-right: 5px;
+  font-weight: 600;
+}
+
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+	.frens_4a {
+		text-align: justify;
+		-webkit-hyphens: auto;
+		hyphens: auto;
+	}
+}
+
+.frens_4a::-webkit-scrollbar {width: 3px;border-radius: 2px;}
+
+.frens_4a::-webkit-scrollbar-thumb {background: #787878!important}
+
+.frens_4a::-webkit-scrollbar-button {display: none}
+
+.frens:hover .frens_1 {opacity: 1}
+.frens:hover .frens_2 {opacity: 1}
+.frens:hover .frens_3 {opacity: 1}
+.frens:hover .frens_3a {opacity: 1}
+.frens:hover .frens_4 {bottom: 0px}
+.frens:hover .frens_img {filter: grayscale(1) contrast(200%) brightness(70%)}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 13px;
+  transform: rotate(180deg);
+  color: #787878
+}
