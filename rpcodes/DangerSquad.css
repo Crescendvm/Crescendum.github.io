@@ -1,0 +1,128 @@
+/* 
+                    — ☾ —
+    DangerSquad Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+       Don't take my codes without permission!
+        
+       
+*/
+
+/* MAIN CSS */
+.squadd {
+  width: 700px;
+  height: 500px;
+  background: #000;
+  margin: 30px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.squad_bg {
+  width: 100%;
+  height: 100%;
+  background: url(https://wallpaperaccess.com/full/97763.jpg);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+  background-position: -185px center;
+}
+
+.squadd sbgf {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  mix-blend-mode: multiply;
+}
+
+.squad_izq {
+  width: 100px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.squad_der {
+  width: 400px;
+  height: 100%;
+  background: #000000;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+    .squad_txt {
+      text-align: justify;
+      -webkit-hyphens: auto;
+      hyphens: auto;
+      color: #787878;
+      font: 14px Calibri;
+      width: calc(100% - 100px);
+      height: calc(100% - 100px);
+      overflow: auto;
+      padding-right: 5px;
+  }
+}
+
+.squad_txt::-webkit-scrollbar {width: 2px;border-radius: 2px;}
+
+.squad_txt::-webkit-scrollbar-thumb {background: red}
+.squad_txt::-webkit-scrollbar-button {display: none}
+
+.squad_icon {
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  width: 80px;
+  height: 80px;
+  background-size: cover !important;
+  position: absolute;
+  top: 30px;
+}
+
+.squad_izq str {
+  height: 370px;
+  width: 100px;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.squad_tit {
+  font: 30px Montserrat;
+  text-transform: uppercase;
+  font-weight: 900;
+  transform: rotate(-90deg);
+  position: absolute;
+  width: 350px;
+  text-align: right;    
+}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 13px;
+  transform: rotate(180deg);
+  color: #787878
+}
