@@ -28,6 +28,8 @@
   text-transform: uppercase;
   font-weight: 900;
   font-style: italic;
+  text-align: left;
+  line-height: 25px;
 }
 
 .youre .inlove .apsycho {
