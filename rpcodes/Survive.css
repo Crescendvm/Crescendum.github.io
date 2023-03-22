@@ -1,0 +1,100 @@
+/* 
+                    — ☾ —
+    Survive Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+       Don't take my codes without permission!
+        
+       
+*/
+
+/* MAIN CSS */
+.heavymetal {
+  width: 800px;
+  height: 400px;
+  background: #000;
+  margin: 30px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.heavymetal .singg {
+  max-width: 250px;
+  height:400px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.singg gwm {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: rotate(-90deg);
+}
+
+.singg_0 {
+  font: 50px Montserrat;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -4px;
+  line-height: 40px;
+}
+
+.singg_1 {
+  color: #787878;
+  font: 8px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.singg hml {
+  width: 1px;
+  height: calc(100% - 100px);
+  background: #111;
+  position: absolute;
+  top: 50px;
+  right: -10px;
+  display: inline-block;
+}
+
+.heavymetal .scream {
+  width: 440px;
+  max-height: calc(100% - 100px);
+  position: absolute;
+  right: 50px;
+  overflow: auto;
+  padding-right: 5px;
+}
+
+.heavymetal .scream_1 {
+  font: 13px Arial;
+  text-align: justify;
+  color: #787878
+}
+
+.heavymetal .scream::-webkit-scrollbar-button {display: none !important}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 13px;
+  transform: rotate(180deg);
+  color: #787878
+}
