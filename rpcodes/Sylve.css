@@ -1,0 +1,271 @@
+/* 
+                    — ☾ —
+    Sylve Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+       Don't take my codes without permission!
+        
+       
+*/
+
+/* MAIN CSS */
+.Sylve {
+  width: 800px;
+  height: 600px;
+  margin: 30px auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.Sylve sfon {
+  width: 100%;
+  height: 100%;
+  background: url(https://cdn.discordapp.com/attachments/839303058823708682/1088180807811735622/al-so-20221018-121111.jpg);
+  background-position: right bottom;
+  filter: contrast(100%);
+}
+
+.Sylve simg {
+  width: 1030px;
+  height: 1000px;
+  background: url(https://cdn.discordapp.com/attachments/839303058823708682/1088180710474526871/sett_spirit_blossom_render_by_cheshireftw_dfqaxnm.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  bottom: -400px;
+  left: -370px;
+  filter: contrast(1.4);
+}
+
+.S_presentacion {
+  width: 350px;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0000006b;
+}
+
+.S_presentacion sico,
+.S_bg sico {
+  width: 150px;
+  height: 150px;
+  
+  mask: url('https://dl.dropbox.com/s/jz5mgw32qyy1ky6/kitsune.svg');
+  -webkit-mask: url('https://dl.dropbox.com/s/jz5mgw32qyy1ky6/kitsune.svg');
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  
+  -moz-mask: url('https://dl.dropbox.com/s/jz5mgw32qyy1ky6/kitsune.svg');
+  -moz-mask-size: 100% 100%;
+  -moz-mask-repeat: no-repeat;
+  -moz-mask-position: center;
+  
+  -o-mask: url('https://dl.dropbox.com/s/jz5mgw32qyy1ky6/kitsune.svg');
+  -o-mask-size: 100% 100%;
+  -o-mask-repeat: no-repeat;
+  -o-mask-position: center;
+  
+  -ms-mask: url('https://dl.dropbox.com/s/jz5mgw32qyy1ky6/kitsune.svg');
+  -ms-mask-size: 100% 100%;
+  -ms-mask-repeat: no-repeat;
+  -ms-mask-position: center;
+}
+
+.S_bg sico {width: 250px;height: 250px}
+
+.S_presentacion slbb {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.S_presentacion slb {
+  font: 10px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 110px;
+  position: relative;
+  text-align: center;
+}
+
+.S_presentacion sla {
+  font: 50px Eclipse;
+  position: absolute;
+  margin-top: -10px;
+}
+
+/**/
+.S_bgt input {display: none !important}
+
+.S_bgb {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 20px;
+  right: 370px;
+}
+
+.S_bgb label {
+  padding: 0px !important;
+  width: 33px;
+  height: 33px;
+  background: var(--S-ico0);
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--S-ico1);
+  font-size: 14px;
+  border: 1px solid var(--S-ico2);
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+.S_bgt #S-btn1:checked ~ .S_bgb .S_btn1,
+.S_bgt #S-btn2:checked ~ .S_bgb .S_btn2,
+.S_bgt #S-btn3:checked ~ .S_bgb .S_btn3,
+.S_bgt #S-btn4:checked ~ .S_bgb .S_btn4,
+.S_bgt #S-btn5:checked ~ .S_bgb .S_btn5 {
+  background: var(--S-icos1);
+  color: var(--S-icos2);
+  border-color: var(--S-icos3)
+}
+
+.S_bg {
+  width: 350px;
+  height: 100%;
+  background: var(--S_bg);
+  position: absolute;
+  top: 0px;
+  right: -350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: collapse;
+  opacity: 0;
+  transition: .6s ease-in-out;
+}
+
+.S_bgt #S-btn2:checked ~ .S_bg1,
+.S_bgt #S-btn3:checked ~ .S_bg2,
+.S_bgt #S-btn4:checked ~ .S_bg3,
+.S_bgt #S-btn5:checked ~ .S_bg4 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.S_bgt #S-btn2:checked ~ .S_bg1 {right: 0px;}
+.S_bgt #S-btn2:checked ~ .S_bg2 {right: -100%;}
+.S_bgt #S-btn2:checked ~ .S_bg3 {right: -200%;}
+.S_bgt #S-btn2:checked ~ .S_bg4 {right: -300%;}
+
+.S_bgt #S-btn3:checked ~ .S_bg1 {right: -100%;}
+.S_bgt #S-btn3:checked ~ .S_bg2 {right: 0%;}
+.S_bgt #S-btn3:checked ~ .S_bg3 {right: -200%;}
+.S_bgt #S-btn3:checked ~ .S_bg4 {right: -300%;}
+
+.S_bgt #S-btn4:checked ~ .S_bg1 {right: -100%;}
+.S_bgt #S-btn4:checked ~ .S_bg2 {right: -200%;}
+.S_bgt #S-btn4:checked ~ .S_bg3 {right: 0%;}
+.S_bgt #S-btn4:checked ~ .S_bg4 {right: -300%;}
+
+.S_bgt #S-btn5:checked ~ .S_bg1 {right: -100%;}
+.S_bgt #S-btn5:checked ~ .S_bg2 {right: -200%;}
+.S_bgt #S-btn5:checked ~ .S_bg3 {right: -300%;}
+.S_bgt #S-btn5:checked ~ .S_bg4 {right: 0%;}
+
+/**/
+
+.S_datos {
+  color: var(--S-txt);
+  font: 14px Arial;
+  text-align: justify;
+  width: calc(100% - 100px);
+  margin-top: 50px;
+}
+
+.S_datos .icons {color: var(--S_dicons)}
+
+.S_bgtex {
+  color: var(--S-txt);
+  text-align: justify;
+  width: calc(100% - 100px);
+  height: 400px;
+  position: absolute;
+  top: 50px;
+  overflow: auto;
+  padding-right: 5px;
+}
+
+.S_bgti {
+  font: 40px Poppins;
+  position: absolute;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  font-style: italic;
+  bottom: 50px;
+  width: calc(100% - 100px);
+  text-align: right;
+  border-top: 1px solid var(--S_titul);
+}
+
+.S_bgtex::-webkit-scrollbar,
+.S_itxt::-webkit-scrollbar {width: 3px;border-radius: 2px;}
+.S_bgtex::-webkit-scrollbar-button,
+.S_itxt::-webkit-scrollbar-button {display: none;}
+
+.S_iti {
+  font: 30px Poppins;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  font-weight: 900;
+  font-style: italic;
+  width: calc(100% - 100px);
+  border-bottom: 1px solid var(--S_titul);
+  padding-bottom: 10px;
+  position: absolute;
+  line-height: 30px;
+}
+
+.iti1 {text-align: left;top: 50px}
+.iti2 {text-align: right;bottom: calc(160px + 50px + 20px)}
+
+.S_itxt {
+  color: var(--S-txt);
+  text-align: justify;
+  width: calc(100% - 100px);
+  position: absolute;
+  height: 160px;
+  overflow: auto;
+  padding-right: 5px;
+}
+
+.itxt1 {top: calc(30px + 10px + 50px + 20px)}
+.itxt2 {bottom: 50px;}
+
+.S_itxt shab {
+  display: inline-block;
+  color: var(--S-txt);
+  background: var(--S-titu);
+  padding: 0px 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font: 10px Tahoma;
+  letter-spacing: 3px;
+}
