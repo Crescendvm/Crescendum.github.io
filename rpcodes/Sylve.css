@@ -210,6 +210,7 @@
   top: 50px;
   overflow: auto;
   padding-right: 5px;
+  font: 13px Calibri;
 }
 
 .S_bgti {
@@ -254,6 +255,7 @@
   height: 160px;
   overflow: auto;
   padding-right: 5px;
+  font: 13px Calibri;
 }
 
 .itxt1 {top: calc(30px + 10px + 50px + 20px)}
