@@ -1,0 +1,209 @@
+
+/* 
+                    — ☾ —
+    Bishop Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+       Icons by Fontawesome
+         ➥ https://fontawesome.com/
+         
+       SZ SVG by Crescendum
+       
+*/
+
+/* MAIN CSS */
+
+.bish_00 {
+  width: 600px;
+  min-height: 300px;
+  background: #000;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.bish_01 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bish_01 isz {
+  width: 100px;
+  height: 100px;
+  
+  mask: var(--bico);
+  -webkit-mask: var(--bico);
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  
+  -moz-mask: var(--bico);
+  -moz-mask-size: 100% 100%;
+  -moz-mask-repeat: no-repeat;
+  -moz-mask-position: center;
+  
+  -o-mask: var(--bico);
+  -o-mask-size: 100% 100%;
+  -o-mask-repeat: no-repeat;
+  -o-mask-position: center;
+  
+  -ms-mask: var(--bico);
+  -ms-mask-size: 100% 100%;
+  -ms-mask-repeat: no-repeat;
+  -ms-mask-position: center;
+}
+
+.bish_01 nsz {
+  font: 40px Montserrat;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.bish_01 ssz {
+  color: #787878;
+  font: 8px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: inline-block;
+  text-align: center;
+}
+
+.tsz {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.bsz {
+  display: flex;
+  align-items: center;  
+  flex-flow: row wrap;
+  width: 350px;
+}
+
+.bsz li {
+  list-style: none;
+  display: flex;
+  margin: 0px 5px 5px 0px;
+  width: calc(100% / 3 - 10px);
+}
+
+.bsz is {
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  background: var(--bico-c00);
+  color: var(--bico-c01);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.szd {
+  background: var(--bda-c00);
+  color: var(--bda-c01);
+  border-top: 1px solid var(--bda-c02);
+  border-right: 1px solid var(--bda-c02);
+  border-bottom: 1px solid var(--bda-c02);
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 30px;
+  font: 8px Tahoma;
+  text-transform: uppercase;
+  padding: 0px 10px;
+  text-align: center;
+  width: calc(100% - 30px - 20px);
+  height: calc(30px - 2px);
+}
+
+.szpb {width: calc(100% - 20px) !important;}
+
+.bbsz {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0px 80px;
+}
+
+.imbsz {
+  width: 120px;
+  height: 120px;
+  background: #111111bf;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imsz {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  outline: 8px solid;
+}
+
+.basz {
+  width: 100%;
+  height: 130px;
+  background: #000;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.basz img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  filter: grayscale(1) contrast(1.5) brightness(50%);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.basz baf {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  mix-blend-mode: multiply;
+}
+
+.batsz {
+  font: 30px Montserrat;
+  position: absolute;
+  right: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.txsz {
+  color: #787878;
+  text-align: justify;
+  padding: 40px 60px;
+  font: 14px Calibri;
+  line-height: 110%;
+}
+
+.creditoschafa {
+  position: absolute;
+  bottom: -20px;
+  right: 0px;
+  color: #787878;
+  font: 7px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
