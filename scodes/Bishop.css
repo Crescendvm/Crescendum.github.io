@@ -210,3 +210,20 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 30px;
+}
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 13px;
+  transform: rotate(180deg);
+  color: #787878 !important;
+}
