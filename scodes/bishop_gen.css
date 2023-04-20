@@ -1,0 +1,124 @@
+
+/* 
+                    — ☾ —
+    Bishop pack codes (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+       Icons by Fontawesome
+         ➥ https://fontawesome.com/
+         
+       SZ SVG by Crescendum
+       
+*/
+
+/* MAIN CSS */
+
+/*Misceláneo*/
+.birb_01d::-webkit-scrollbar {width: 3px;border-radius: 2px;}
+/**/
+
+.birb_00 {
+  width: 600px;
+  background: #000;
+  margin: 30px auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.birb_01 {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+  position: relative;
+}
+
+.birb_01a {
+  width: 120px;
+  height: 120px;
+  background: #111111bf;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.birb_01b {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  outline: 8px solid;
+}
+
+.birb_01c {
+  width: 350px;
+  height: 200px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+    .birb_01d {
+        text-align: justify;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+      
+      width: calc(100% - 10px - 50px);
+      height: calc(100% - 50px);
+      overflow: auto;
+      padding-right: 10px;
+      
+      font: 13px Times New Roman;
+      color: #787878;
+    }
+}
+
+#birbico {
+  font-size: 280px;
+  position: absolute;
+  left: -50px;
+}
+
+.birb_01d trr {
+  font: 8px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 1px 3px
+}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 30px;
+}
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 13px;
+  transform: rotate(180deg);
+  color: #787878 !important;
+}
+
+/*ICONO*/
+@font-face {font-family: Elune; src: url('https://dl.dropbox.com/s/ckzj9ekekqrwy0t/diana%20emblem.ttf'); format('truetype');font-display: swap;font-weight:400;font-style:normal}
+
+@font-face {font-family: Lunito; src: url('https://dl.dropbox.com/s/rbyttig9h9cx76d/Elune.ttf'); format('truetype');font-display: swap;font-weight:400;font-style:normal}
+
+.lun:before,[data-icon]:before{font-family:"Elune"!important;content:attr(data-icon);font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}[class^="lun-"]:before,[class*=" lun-"]:before{font-family:"Elune"!important;font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+.lune:before,[data-icon]:before{font-family:"Lunito"!important;content:attr(data-icon);font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}[class^="lune-"]:before,[class*=" lune-"]:before{font-family:"Lunito"!important;font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+.lun-elune:before{content:"\e900"}
+.lune-lunis:before{content:"\e900"}
