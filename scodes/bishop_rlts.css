@@ -1,0 +1,312 @@
+
+/* 
+                    — ☾ —
+    Bishop pack Codes Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+       Icons by Fontawesome
+         ➥ https://fontawesome.com/
+         
+       SZ SVG by Crescendum
+       
+*/
+
+/* MAIN CSS */
+
+/*SCROLL*/
+.bir_03d::-webkit-scrollbar {width: 3px;border-radius: 2px;}
+
+.bir_03c::-webkit-scrollbar {display: none;}
+
+.bir_03d::-webkit-scrollbar-thumb {background: var(--bir_c01) !important;}
+
+.bir_03c::-webkit-scrollbar-thumb {display: none;}
+
+.bir_03d::-webkit-scrollbar-thumb-button {display: none}
+
+
+.bir_00 {
+  width: 600px;
+  min-height: 250px;
+  background: #000;
+  margin: 30px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.bir_01 {
+  width: 100%;
+  height: 200px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bir_01 isz {
+  width: 100px;
+  height: 100px;
+  
+  mask: var(--bico);
+  -webkit-mask: var(--bico);
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  
+  -moz-mask: var(--bico);
+  -moz-mask-size: 100% 100%;
+  -moz-mask-repeat: no-repeat;
+  -moz-mask-position: center;
+  
+  -o-mask: var(--bico);
+  -o-mask-size: 100% 100%;
+  -o-mask-repeat: no-repeat;
+  -o-mask-position: center;
+  
+  -ms-mask: var(--bico);
+  -ms-mask-size: 100% 100%;
+  -ms-mask-repeat: no-repeat;
+  -ms-mask-position: center;
+}
+
+.bir_01 nsz {
+  font: 40px Montserrat;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  line-height: 31px;
+  text-align: left;
+}
+
+.bir_01 ssz {
+  color: #787878;
+  font: 8px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.tsz {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.bir_02 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bir_00 birbb {
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+}
+
+.bir_03a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.4
+}
+
+.bir_03b {
+  font: 40px Montserrat;
+  text-transform: uppercase;
+  color: var(--bir_c01);
+  font-weight: 900;
+  position: absolute;
+  right: 40px;
+  text-align: right;
+  line-height: 31px;
+}
+
+.bir_03ble {
+  left: 40px !important;;
+  text-align: left !important;
+}
+
+.bir_03c {
+  font: 7px Tahoma;
+  color: var(--bir_c03);
+  letter-spacing: 1px;
+  width: 300px;
+  max-height: 120px;
+  border-right: 3px solid var(--bir_c01);
+  padding-right: 5px;
+  margin-top: 5px;
+  background: #0000009e;
+  overflow: auto;
+}
+
+.bir_03cle {
+  padding-right: 0px;
+  padding-left: 5px;
+  border-left: 3px solid var(--bir_c01);
+  border-right: 0px;
+}
+
+.bir_03c birr,
+.bir_03g birr {
+  background: var(--bir_c01);
+  color: var(--bir_c04);
+  padding: 1px 3px;
+}
+
+
+.bir_03d {
+  width: calc(100% - 10px);
+  height: 300px;
+  padding-right: 10px;
+  overflow: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+}
+
+
+.bir_03e {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 30px;
+}
+
+.bir_03e:first-child {margin-top: 30px;}
+.bir_03e:last-child {
+  margin-bottom: 30px;
+}
+
+.bir_03f {
+  width: 80px;
+  height: 80px;
+  background-size: cover !important;
+  outline: 10px solid;
+}
+
+
+
+
+
+/*BOTONES*/
+.bir_02 input {display: none}
+
+.bir_02a {display: inline-flex;}
+
+.bir_02a .birbtn-01,
+.bir_02a .birbtn-02,
+.bir_02a .birbtn-03,
+.bir_02a .birbtn-04 {
+  width: 20px;
+  height: 20px;
+  outline: 1px solid var(--bir_c02);
+  outline-offset: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: var(--bir_c01);
+  margin-right: 20px;
+  cursor: pointer;
+  transition: .6s;
+  padding: 0px;
+}
+
+.bir_02a .birbtn-04 {margin: 0px;}
+/*-----------------------------------*/
+
+/*ESCRITURA*/
+.bir_03 {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  bottom: 0px;
+  transition: .8s .2s;
+  opacity: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.birp_01 {left: 100%}
+.birp_02 {left: 200%}
+.birp_03 {left: 300%}
+.birp_04 {left: 400%}
+/*-----------*/
+
+/* EFECTOS */
+#birbtn-01:checked ~ .bir_02a .birbtn-01,
+#birbtn-02:checked ~ .bir_02a .birbtn-02,
+#birbtn-03:checked ~ .bir_02a .birbtn-03,
+#birbtn-04:checked ~ .bir_02a .birbtn-04 {
+  color: var(--bir_cs01);
+  outline-color: var(--bir_cs01);
+}
+
+#birbtn-01:checked ~ .birp_01 {left: 0%;opacity: 1;}
+#birbtn-01:checked ~ .birp_02 {left: 100%}
+#birbtn-01:checked ~ .birp_03 {left: 200%}
+#birbtn-01:checked ~ .birp_04 {left: 300%}
+
+#birbtn-02:checked ~ .birp_01 {left: -100%}
+#birbtn-02:checked ~ .birp_02 {left: 0%;opacity: 1;}
+#birbtn-02:checked ~ .birp_03 {left: 100%}
+#birbtn-02:checked ~ .birp_04 {left: 200%}
+
+#birbtn-03:checked ~ .birp_01 {left: -200%}
+#birbtn-03:checked ~ .birp_02 {left: -100%}
+#birbtn-03:checked ~ .birp_03 {left: 0%;opacity: 1;}
+#birbtn-03:checked ~ .birp_04 {left: 100%}
+
+#birbtn-04:checked ~ .birp_01 {left: -300%}
+#birbtn-04:checked ~ .birp_02 {left: -200%}
+#birbtn-04:checked ~ .birp_03 {left: -100%}
+#birbtn-04:checked ~ .birp_04 {left: 0%;opacity: 1;}
+
+.bir_03dbt input:checked ~ .bir_03f {opacity: 1;visibility: visible;}
+
+/*JUSTIFY*/
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+    .bir_03g {
+      text-align: justify;
+      -webkit-hyphens: auto;
+      hyphens: auto;
+      
+      font: 8px Tahoma;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      width: 250px;
+      height: 80px;
+      margin-left: 30px;
+      color: var(--bir_ctx);
+      overflow: auto;
+      padding-right: 10px;
+  }
+}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 30px;
+}
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 13px;
+  transform: rotate(180deg);
+  color: #787878 !important;
+}
