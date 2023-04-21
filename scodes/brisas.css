@@ -1,0 +1,113 @@
+
+/* 
+                    — ☾ —
+    Brisas Suaves Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+       Icons by Fontawesome
+          ➥ https://fontawesome.com/
+*/
+
+/* MAIN CSS */
+/* --- MISCELANEOS --- */
+.lunp_02::-webkit-scrollbar {width: 10px;height: 3px;border-radius: 10px;}
+
+.lunp_02::-webkit-scrollbar-thumb {background: #b7796e;}
+/*------*/
+
+.lunisp_00 {
+  width: 800px;
+  height: 400px;
+  margin: 30px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.lunp_01 {
+  width: 350px;
+  height: 100%;
+  background-size: cover !important;
+  background-position: center !important;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lunp_01a {
+  width: calc(100% - 100px);
+  height: calc(100% - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.lunp_01b {
+  font: 30px Modernline;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 30px;
+}
+
+.lunp_01c {
+  font: 8px Tahoma;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.lunico {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+@supports ((-webkit-hyphens:auto) or (hyphens:auto)) {
+  .lunp_02 {
+    text-align: justify;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    
+    height: calc(100% - 100px - 10px);
+    width: calc(100% - 350px - 100px);
+    position: absolute;
+    right: 50px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    column-count: 2;
+    font: 13px Nunito;
+    text-align: justify;
+  }
+}
+
+.lunp_02 brr {
+  font: 8px Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 900;
+  padding: 3px;
+}
+
+/* CREDITOS */
+.cr-crescendum {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto 30px;
+}
+.cr-crescendum a {
+  text-decoration: none;
+  font-size: 13px;
+  transform: rotate(180deg);
+  color: #787878 !important;
+}
