@@ -116,6 +116,7 @@
 .hsp_03n {
   font: 20px Montserrat;
   font-weight: 900;
+  color: var(--hsp_icot);
 }
 
 .hsp_03ib, .hsp_04ib {
