@@ -1,0 +1,293 @@
+
+/* 
+                    — ☾ —
+    PARANOIA Copyright (C) 2023 Crescendum 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+          ➥ https://codepen.io/crescendumcodes
+       Don't take my codes without permission!
+        
+       Icons by Fontawesome
+          ➥ https://fontawesome.com/
+*/
+
+/* MAIN CSS */
+
+.hsp_00 {
+  width: 900px;
+  background: #060606;
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.hsp_ti {
+  font: 30px Montserrat;
+  color: var(--hsp_c01);
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.hsp_01, .hsp_02 {
+  display: inline-flex;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+.hsp_im {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+}
+
+.hsp_02 {
+  width: calc(80px * 3 + 5px * 4 - 2px);
+  top: 230px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.hsp_dab {
+  width: calc(80px * 3 + 5px * 4 - 2px);
+  height: 25px;
+  display: inline-flex;
+  margin-bottom: 5px;
+}
+
+.hsp_habi {
+  height: 25px;
+  width: 50px;
+  background: var(--hsp_icob);
+  color: var(--hsp_icot);
+  border-radius: 5px 0px 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px
+}
+
+.hsp_habt {
+  width: 100%;
+  background: #090909;
+  border-top: 1px solid #191919;
+  border-bottom: 1px solid #191919;
+  border-right: 1px solid #191919;
+  border-radius: 0px 5px 5px 0px;
+  color: var(--hsp_c01);
+  font: 10px Montserrat;
+  padding-left: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.hsp_habt b {
+  font-weight: 800;
+  padding-right: 3px;
+}
+
+.hsp_03b {
+  width: 50px;
+  height: 300px;
+  background: #000;
+  position: absolute;
+  top: 105px;
+  right: 55px;
+  display: flex;
+  justify-content: center;
+}
+
+.hsp_03bc {
+  width: 50px;
+  height: 100px;
+  background: var(--hsp_c01);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hsp_03n {
+  font: 20px Montserrat;
+  font-weight: 900;
+}
+
+.hsp_03ib, .hsp_04ib {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid var(--hsp_c01);
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.hsp_03ib {top: calc(100px - 24px);
+}
+
+.hsp_03ib2, .hsp_04ib2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+}
+
+.hsp_03ib i, .hsp_04ib i {
+  transform: rotate(-45deg);
+  color: var(--hsp_c01);
+  background: #000
+}
+
+.hsp_03t {
+  color: var(--hsp_c01);
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: left top;
+  top: 120px;
+  left: 34px;
+  width: 180px;
+  text-align: center;
+  font: 18px Montserrat;
+  
+}
+
+.hsp_03 {
+  width: 420px;
+  height: 300px;
+  background: #090909;
+  position: absolute;
+  right: 105px;
+  top: 105px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #787878;
+  font: 13px Calibri;
+  text-align: justify;
+}
+
+.hsp_03tx {
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  overflow: auto;
+  padding-right: 3px;
+}
+
+.hsp_03tx::-webkit-scrollbar, .hsp_04tx::-webkit-scrollbar {width: 2px!important;border-radius: 2px!important;}
+.hsp_03tx::-webkit-scrollbar-thumb, .hsp_04tx::-webkit-scrollbar-thumb {background: var(--hsp_c01)!important}
+
+.hsp_04, .hsp_05 {
+  width: calc(100% - 100px);
+  height: 280px;
+  background: #090909;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hsp_04 {margin-top: 460px;
+}
+
+.hsp_05 {margin-top: 30px;
+}
+
+.hsp_04b {
+  width: 100%;
+  height: 50px;
+  background: #000;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hsp_04c {
+  height: 50px;
+  width: 200px;
+  background: var(--hsp_c01);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hsp_04ib {
+  left: calc(200px - 24px);
+}
+
+.hsp_04t {
+  color: var(--hsp_c01);
+  position: absolute;
+  left: 230px;
+  text-align: center;
+  font: 18px Montserrat;
+}
+
+.hsp_04tx {
+  font: 13px Calibri;
+  color: #787878;
+  margin-top: 30px;
+  height: calc(100% - 50px - 60px);
+  width: calc(100% - 60px);
+  overflow: auto;
+  padding-right: 3px;
+  text-align: justify;
+  font: 
+}
+
+.hsp_06 {
+  width: calc(100% - 100px);
+  height: 280px;
+  display: flex;
+}
+
+.hsp_07 {
+  width: 100%;
+  height: 1px;
+  background: #161616;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.hsp_08 {
+  display: inline-flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.hsp_08ic {
+  color: var(--hsp_c01);
+  font-size: 18px;
+}
+
+.hsp_08tx {
+  color: var(--hsp_c03);
+  font: 12px Calibri;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+.hsp_08tx b {
+  color: var(--hsp_c01)
+}
+
+.k-cre a {
+  font: 10px Calibri;
+  letter-spacing: 1px;
+  text-decoration: none;
+  position: absolute;
+  right: 0px;
+  bottom: -15px;
+  color: var(--hsp_c01);
+  font-weight: 600
+}
