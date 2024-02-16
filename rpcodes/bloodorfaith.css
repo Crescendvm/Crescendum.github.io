@@ -1,0 +1,255 @@
+/* 
+                    — ☾ —
+    Blood or Faith Copyright (C) 2024 Crescendvm 
+       Visit for my codes:
+          ➥ https://crescendumcodes.tumblr.com/
+       Don't take my codes without permission!
+        
+       
+*/
+
+#disaster *::-webkit-scrollbar {width: 3px;border-radius: 2px;}
+#disaster *::-webkit-scrollbar-thumb {background: var(--disac-01)}
+.disa_bas1::-webkit-scrollbar {width: 0px !important}
+.disa_bas1::-webkit-scrollbar-thumb {background: transparent !important}
+
+#disaster {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  margin: 0px auto;
+}
+.disa_01 {
+  width:400px;
+  height: 500px;
+  background-size: cover !important;
+  position: relative;
+}
+.disa_01 disafc {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: var(--disac-01);
+  mix-blend-mode: multiply;
+}
+.disa_01 disaf {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  right: 0px;
+  background: linear-gradient(180deg, transparent -50%, var(--disac-02) 120%);
+  display: block;
+}
+.disa_03 {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  position: relative;
+  gap: 40px;
+  background: linear-gradient(180deg, var(--disac-01) -100%, var(--disac-02) 100%);
+
+}
+.disaiconn {
+  font-size: 70px;
+  position: absolute;
+  top: 30px;
+  color: var(--disac-01);
+}
+.disaopc {
+  font: 10px Montserrat;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.disabtn1, .disabtn2, .disabtn3, .disabtn4 {
+  font-size: 20px;
+  color: var(--disac-01);
+  transform: rotate(90deg);
+  cursor: pointer;
+  letter-spacing: 2px;
+  filter: brightness(0.9);
+  transition: .5s ease-in-out;
+  border-bottom: 1px solid transparent;
+  padding: 0px 4px;
+}
+.disabtn1 {transform: rotate(0deg);border-bottom: 0px;}
+.disacont {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  z-index: 3;
+  transition: .7s ease-in-out;
+}
+.disa_tpri {
+  font: 80px Montserrat;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-image: linear-gradient(180deg, var(--disac-01) 0%, var(--disac-02) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-style: italic;
+  line-height: 60px;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+.disa_base {
+  width: 80%;
+  height: 90%;
+  background: var(--disac-04);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.disa_fra {
+  width: 90%;
+  padding: 20px 0px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font: 15px Times New roman;
+  font-style: italic;
+  color: var(--disac-03);
+}
+.disa_top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.disa_avi {
+  width: 100%;
+  height: 94px;
+  border: 7px solid var(--disac-01);
+  box-sizing: border-box;
+  order: 1;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.disa_dats {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  order: 2;
+}
+.disa_dats ddts {
+  width: 100%;
+  background: var(--disac-01);
+  color: var(--disac-05);
+  text-transform: uppercase;
+  font: 10px Calibri;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.disa_bot {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 10px Calibri;
+  text-transform: uppercase;
+  font-style: italic;
+  color: var(--disac-03);
+  gap: 10px;
+  margin-top: auto;
+  padding: 10px 0px;
+}
+.disaicpb {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--disac-03);
+  align-self: start;
+}
+.disa_prese {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font: 10px Tahoma;
+  text-transform: uppercase;
+  color: var(--disac-03);
+  font-style: italic;
+}
+.disa_prese i {
+  font-size: 40px;
+  padding: 20px 10px 20px 20px;
+}
+.disa_prese c, .disa_prese c1 {display: block;}
+.disa_prese c1 {font-size: 8px;}
+.disa_prese c {border-left: 3px solid var(--disac-01);padding-left: 5px;}
+.disa_texto {
+  width: calc(100% - 40px - 5px);
+  height: 100%;
+  text-align: justify;
+  font: 13px Calibri;
+  overflow: auto;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  color: var(--disac-txt);
+}
+.disa_bas1 {
+  overflow: auto;
+}
+.disa_texto1 {
+  padding: 0px 20px 20px;
+  text-align: justify;
+  font: 13px Calibri;
+  color: var(--disac-txt);
+}
+#disaster a {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  font: 7px Tahoma;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--disac-01);
+  font-weight: 900;
+}
+
+
+/*BOTONES*/
+.disa_02 input {display: none;}
+#disabtn-01:checked ~ .disa_03 .disabtn1, #disabtn-02:checked ~ .disa_03 .disabtn2, #disabtn-03:checked ~ .disa_03 .disabtn3, #disabtn-04:checked ~ .disa_03 .disabtn4 {
+  color: var(--disac-03);
+  filter: brightness(1);
+  border-bottom: 1px solid var(--disac-03);
+} 
+#disabtn-01:checked ~ .disa_03 .disabtn1 {border-bottom: 0px;}
+
+#disabtn-01:checked ~ .disacont-1 {top: 0%;}
+#disabtn-01:checked ~ .disacont-2 {top: 100%;}
+#disabtn-01:checked ~ .disacont-3 {top: 200%;}
+#disabtn-01:checked ~ .disacont-4 {top: 300%;}
+
+#disabtn-02:checked ~ .disacont-1 {top: -100%;}
+#disabtn-02:checked ~ .disacont-2 {top: 0%;}
+#disabtn-02:checked ~ .disacont-3 {top: 100%;}
+#disabtn-02:checked ~ .disacont-4 {top: 200%;}
+
+#disabtn-03:checked ~ .disacont-1 {top: -200%;}
+#disabtn-03:checked ~ .disacont-2 {top: -100%;}
+#disabtn-03:checked ~ .disacont-3 {top: 0%;}
+#disabtn-03:checked ~ .disacont-4 {top: 100%;}
+
+#disabtn-04:checked ~ .disacont-1 {top: -300%;}
+#disabtn-04:checked ~ .disacont-2 {top: -200%;}
+#disabtn-04:checked ~ .disacont-3 {top: -100%;}
+#disabtn-04:checked ~ .disacont-4 {top: 0%;}
